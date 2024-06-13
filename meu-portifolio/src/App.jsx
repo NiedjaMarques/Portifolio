@@ -1,9 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-
-
-import './index.css';
-
+//Arquivo direcionado para as rotas
+import { useState } from 'react' 
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +8,7 @@ function App() {
     <>
       <div className='bg-red-700 flex items-center justify-center'>
         <a href="https://vitejs.dev" target="_blank">
-          
+          d
         </a>
         <a href="https://react.dev" target="_blank">
           
