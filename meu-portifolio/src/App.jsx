@@ -1,31 +1,36 @@
 //Arquivo direcionado para as rotas
+// Paleta de cores:
+// #164926 - verde
+// #06A1F5 - azul
+// #252024 - quase preto
+// #D5BAA6 - bege
+// #A35F20 - marrom claro *
+// #562300 - marrom escuro *
+// #FF4A00 - laranja - 
+
 import { useState } from 'react' 
+import Header from './pages/componentes/Header'
+import Home from './pages/componentes/Home.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div className='bg-red-700 flex items-center justify-center'>
-        <a href="https://vitejs.dev" target="_blank">
-          d
-        </a>
-        <a href="https://react.dev" target="_blank">
-          
-        </a>
-      </div>
-      <h1 className='text-red-600 flex items-center justify-center'>Vite + React</h1>
-      <div className="card flex items-center justify-center">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+      <Header />
+      <Home />
+      <div className=''>
+
+        
+
+        <p className='-orange-700'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
         </p>
+
       </div>
-      <p className="read-the-docs flex items-center justify-center text-lime-700">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
