@@ -20,7 +20,7 @@ function Header(){
 
     return(
         <>
-            <header className={`fixed top-0 left-0 z-20 w-full transition duration-500  ${scroll ? 'bg-[#252024] shadow-lg  shadow-[#252024d6]' : ''}`} id="header">      
+            <header className={`fixed top-0 left-0 z-20 w-full transition duration-500 ${scroll ? 'bg-[#252024] shadow-lg  shadow-[#252024d6]' : ''}`} id="header">      
                 <Navbar />
                 <hr />
             </header>                      

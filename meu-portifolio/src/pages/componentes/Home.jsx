@@ -1,5 +1,5 @@
 import iconLinkedin from '../../../app/view/icons/icons8-linkedin.svg'
-import iconWhatsapp from '../../../app/view/icons/icons8-whatsapp.svg'
+import iconCurriculo from '../../../app/view/icons/icons8-curriculo.svg'
 import iconGithub from '../../../app/view/icons/icons8-github.svg'
 import imgPrincipal from '../../../app/view/imagens/oculosretangulo.jpg'
 
@@ -7,7 +7,7 @@ import imgPrincipal from '../../../app/view/imagens/oculosretangulo.jpg'
 function Home(){
     return (
       <>
-        <div className="flex items-center justify-center h-[100vh] px-4 pt-20">
+        <div className="flex items-center justify-around h-[100vh] px-4 pt-20">
 
             <div className='text-center sm:text-start '>
 
@@ -30,14 +30,14 @@ function Home(){
                     </a>
 
                     <a href="#" className="">
-                        <img className='bg-[#ff48005f] transform duration-500 hover:bg-[#ff4800d2]  mx-2 rounded-full shadow-lg shadow-[#ff48004b] h-10' src={iconWhatsapp} alt="logo Whatsapp" />
+                        <img className='bg-[#ff48005f] transform duration-500 hover:bg-[#ff4800d2]  mx-2 rounded-full shadow-lg shadow-[#ff48004b] h-10 p-1' src={iconCurriculo} alt="logo curriculo" />
                     </a>
                     
                 </div>
 
             </div>
 
-            <div className='hidden md:flex w-2/5 ml-4 '>
+            <div className='hidden md:flex w-[40%] '>
 
                 <img className='rounded-full shadow-lg shadow-[#252024]' src={imgPrincipal} alt="imagem principal" />
 
@@ -48,12 +48,3 @@ function Home(){
     );
 }
   export default Home;
-  
-  // Paleta de cores:
-  // #164926 - verde
-  // #06A1F5 - azul
-  // #252024 - quase preto
-  // #D5BAA6 - bege
-  // #A35F20 - marrom claro
-  // #562300 - marrom escuro
-  // #FF4A00 - laranja - 
