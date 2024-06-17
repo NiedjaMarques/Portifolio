@@ -1,3 +1,8 @@
+import img1 from '../../../app/view/imagens/Projetositeggs.png'
+import img2 from '../../../app/view/imagens/ProjetoSistemadeLogin.png'
+import img3 from '../../../app/view/imagens/ProjetoLoginFront.png'
+import img4 from '../../../app/view/imagens/ProjetoHamburgueria.png'
+
 const Projetos = () => {
     return (
         <>
@@ -13,7 +18,7 @@ const Projetos = () => {
 
                         <a href="https://github.com/NiedjaMarques/Sistema-de-Autentica--o" target="_blank" className="p-4 mx-auto items-center justify-center flex flex-col border rounded-lg border-[#D5BAA6] transition hover:border-[#562300] ease-in-out hover:bg-[#D5BAA6] hover:text-[#252024] text-[#D5BAA6] group relative h-full w-full">
 
-                            <img className="block object-cover rounded-lg" src="../../../app/view/imagens/ProjetoSistemadeLogin.png" alt="ProjetoSistemadeLogin" />
+                            <img className="block object-cover rounded-lg" src={img2} alt="ProjetoSistemadeLogin" />
 
                             <p className="text-center font-medium text-lg pt-4">
                                 Sistema-de-Login
@@ -30,7 +35,7 @@ const Projetos = () => {
 
                         <a href="https://github.com/NiedjaMarques/GGS" target="_blank" className="p-4 mx-auto items-center justify-center flex flex-col border rounded-lg border-[#D5BAA6] transition hover:border-[#562300] ease-in-out hover:bg-[#D5BAA6] hover:text-[#252024] text-[#D5BAA6] group relative h-full w-full">
                     
-                            <img className="block object-cover rounded-lg " src="../../../app/view/imagens/Projetositeggs.png" alt="Projetositeggs" />
+                            <img className="block object-cover rounded-lg " src={img1} />
 
                             <p className="text-center font-medium text-lg pt-4">
                                 GGS
@@ -47,7 +52,7 @@ const Projetos = () => {
 
                         <a href="https://github.com/NiedjaMarques/projeto-login" target="_blank" className="p-4 mx-auto items-center justify-center flex flex-col border rounded-lg border-[#D5BAA6] transition hover:border-[#562300] ease-in-out hover:bg-[#D5BAA6] hover:text-[#252024] text-[#D5BAA6] group relative h-full w-full">
                         
-                            <img className="block object-cover rounded-lg " src=".../../../app/view/imagens/ProjetoLoginFront.png" alt="ProjetoLoginFront" />
+                            <img className="block object-cover rounded-lg " src={img3} alt="ProjetoLoginFront" />
 
                             <p className="text-center font-medium text-lg pt-4">
                                 Projeto-login
@@ -64,7 +69,7 @@ const Projetos = () => {
 
                         <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank" className="p-4 mx-auto items-center justify-center flex flex-col border rounded-lg border-[#D5BAA6] transition hover:border-[#562300] ease-in-out hover:bg-[#D5BAA6] hover:text-[#252024] text-[#D5BAA6] group relative h-full w-fulll">
                     
-                            <img className="block object-cover rounded-lg " src="../../../app/view/imagens/ProjetoHamburgueria.png" alt="ProjetoHamburgueria" />
+                            <img className="block object-cover rounded-lg " src={img4} alt="ProjetoHamburgueria" />
 
                             <p className="text-center font-medium text-lg pt-4">
                                 Projeto Hamburgueria
