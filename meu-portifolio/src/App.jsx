@@ -20,12 +20,17 @@ import Skills from './pages/componentes/SkillSection.jsx'
 
 
 function App() {
+  const [currentRoute, setCurrentRoute] = useState('home');
+  const handleNavigation = (route) => {
+    setCurrentRoute(route);
+  };
   return (
     <>
     <h1 className='bg-[#b85832]'></h1>
-      <Header />
-      {/* scrooll personalizado /// fonte para o site // imagens aparecendo na tela // rotas dos links*/}
-      <Home />
+    <Header onNavigate={handleNavigation} />
+    {currentRoute === 'home' && <Home />}
+      {/* scrooll personalizado /// fonte para o site // imagens aparecendo na tela // rotas dos links // procurar rolagem suave // aplicar container e arrumar as sections html semantico*/}
+      {/* <Home /> */}
       <About />
       <Projetos />
       <Skills/>

@@ -1,15 +1,7 @@
-//Arquivo direcionado para as rotas
-// Paleta de cores:
-// #164926 - verde
-// #06A1F5 - azul
-// #252024 - quase preto
-// #D5BAA6 - bege
-// #A35F20 - marrom claro
-// #562300 - marrom escuro
-// #FF4A00 - laranja 
 import iconLinkedin from '../../../app/view/icons/icons8-linkedin.svg'
 import iconEmail from '../../../app/view/icons/icons8-email.svg'
 import iconGithub from '../../../app/view/icons/icons8-github.svg'
+
 const Contact = () => {
     return (
         <>
