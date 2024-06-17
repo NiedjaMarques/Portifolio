@@ -14,28 +14,23 @@ import Home from './pages/componentes/Home.jsx'
 import About from './pages/componentes/AboutSection.jsx'
 //import Experience from './pages/componentes/ExperienceSection.jsx'
 import Projetos from './pages/componentes/ProjetosSection.jsx'
+import Contact from './pages/componentes/ContactSection.jsx'
+import Skills from './pages/componentes/SkillSection.jsx'
+
+
 
 function App() {
   return (
     <>
+    <h1 className='bg-[#b85832]'></h1>
       <Header />
+      {/* scrooll personalizado /// fonte para o site // imagens aparecendo na tela // rotas dos links*/}
       <Home />
       <About />
       <Projetos />
-      <div className=''>
-
-        
-
-        <p className='bg-orange-700 pt-52'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit doloremque fuga laboriosam eaque minima molestias vel quos perspiciatis, laudantium a tempora nemo exercitationem voluptates animi inventore ducimus ipsam, fugiat qui.lo Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sint cum a? Sunt esse hic delectus obcaecati officiis totam qui laudantium? Suscipit quam aliquam doloribus odio odit error quod facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia consequatur quis maxime blanditiis? Temporibus quis maiores tempora aspernatur cumque. Deserunt officiis nemo autem molestiae quisquam doloremque nihil earum nobis facilis!
-        </p>
-
-      </div>
+      <Skills/>
+      <Contact />
+      {/* Formulario com mensagem igual o do matheus */}
     </>
   )
 }
