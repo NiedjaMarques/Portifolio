@@ -72,12 +72,12 @@ const MobileMenu = () => {
     );
 };
 const Navbar = () => (
-<nav className="w-full px-4 sm:px-6 lg:px-8">
-    <div className="flex items-center justify-between">
-        <Logo />
-        <NavLinks />
-        <MobileMenu />
-    </div>
-</nav>
+    <nav className="w-full px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between">
+            <Logo />
+            <NavLinks />
+            <MobileMenu />
+        </div>
+    </nav>
 );
 export default Navbar

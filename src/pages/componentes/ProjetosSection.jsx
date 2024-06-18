@@ -7,7 +7,7 @@ const Projetos = () => {
         <>
             <section className="py-10 bg-azul-escuro">
                 <hr />
-                <h1 className=" text-3xl text-cinza-claro sm:text-4xl font-bold p-4 text-center mb-12 transition-all duration-500 ease">
+                <h1 className=" text-3xl text-cinza-claro sm:text-4xl font-bold p-4 text-center transition-all duration-500 ease">
                     Projetos
                 </h1>
 
