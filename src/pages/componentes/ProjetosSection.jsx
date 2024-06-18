@@ -1,4 +1,3 @@
-import img1 from '../../../app/view/imagens/Projetositeggs.png'
 import img2 from '../../../app/view/imagens/ProjetoSistemadeLogin.png'
 import img3 from '../../../app/view/imagens/ProjetoLoginFront.png'
 import img4 from '../../../app/view/imagens/ProjetoHamburgueria.png'
@@ -6,89 +5,95 @@ import img4 from '../../../app/view/imagens/ProjetoHamburgueria.png'
 const Projetos = () => {
     return (
         <>
-            <div className="pt-20 ">
+            <section className="py-10 bg-verde-menta">
 
-                <h1 className="text-3xl sm:text-4xl font-bold text-[#D5BAA6] p-4 text-start">
+                <h1 className="text-3xl text-azul-escuro sm:text-4xl font-bold p-4 text-center mb-12 transition-all duration-500 ease">
                     Projetos
                 </h1>
 
-                <div className="px-4 mx-auto flex items-center justify-center">
+                <div className="container px-4 mx-auto py-10 space-y-20">
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div className="flex flex-col sm:flex-row sm:space-x-4 items-center justify-center transition-all duration-500 ease">
 
-                        <a href="https://github.com/NiedjaMarques/Sistema-de-Autentica--o" target="_blank" className="p-4 mx-auto items-center justify-center flex flex-col border rounded-lg border-[#D5BAA6] transition hover:border-[#562300] ease-in-out hover:bg-[#D5BAA6] hover:text-[#252024] text-[#D5BAA6] group relative h-full w-full">
+                        <div className="w-full sm:w-[45%] md:w-[40%] transition-all duration-500 ease">
+                            <img className="rounded-lg" src={img2} alt="Projeto Sistema de Login" />
+                        </div>
 
-                            <img className="block object-cover rounded-lg" src={img2} alt="ProjetoSistemadeLogin" />
+                        <div className="text-azul-escuro text-start w-full md:w-[45%] mt-4 sm:mt-0 sm:ml-4 transition-all duration-500 ease group relative font-medium">
 
-                            <p className="text-center font-medium text-lg pt-4">
-                                Sistema-de-Login
+                            <h1 className="text-lg md:text-2xl transition-all duration-500 ease">
+                                Sistema de Login
+                            </h1>
+
+                            <p className="font-medium text-md py-4">
+                                Desenvolvi um sistema de autenticação incorporando HTML, Tailwind CSS, PHP e um banco de dados MySQL. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque autem voluptates nam. Laudantium a numquam autem voluptatum cum consequatur, adipisci voluptates nemo similique ad placeat est dolor iure corporis dicta!
                             </p>
+                            
+                            <a href="https://github.com/NiedjaMarques/Sistema-de-Autentica--o" target="_blank">
+                                <button className="px-4 py-2 bg-azul-escuro text-cinza-claro rounded shadow-md shadow-azul-escuro transition-all duration-500 ease">
+                                    GITHUB
+                                </button>
+                            </a>
 
-                            <p className="text-center  font-medium text-sm mb-2 p-4">
-                            Desenvolvi um sistema de autenticação incorporando HTML, Tailwind CSS, PHP e um banco de dados MySQL.
-                            </p>
-
-                            <p className="text-xl text-[#252024] font-medium pb-4 hidden group-hover:block absolute -bottom-3 left-0 ml-2">
-                               Concluído 
-                            </p>
-                        </a>
-
-                        <a href="https://github.com/NiedjaMarques/GGS" target="_blank" className="p-4 mx-auto items-center justify-center flex flex-col border rounded-lg border-[#D5BAA6] transition hover:border-[#562300] ease-in-out hover:bg-[#D5BAA6] hover:text-[#252024] text-[#D5BAA6] group relative h-full w-full">
-                    
-                            <img className="block object-cover rounded-lg " src={img1} />
-
-                            <p className="text-center font-medium text-lg pt-4">
-                                GGS
-                            </p>
-
-                            <p className="text-center font-medium text-sm mb-2 p-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia odio ea cumque eaque ullam quo id?
-                            </p>
-
-                            <p className="text-xl text-[#252024] font-medium pb-4 hidden group-hover:block absolute -bottom-3 left-0 ml-2">
-                                Em andamento 
-                            </p>
-                        </a>
-
-                        <a href="https://github.com/NiedjaMarques/projeto-login" target="_blank" className="p-4 mx-auto items-center justify-center flex flex-col border rounded-lg border-[#D5BAA6] transition hover:border-[#562300] ease-in-out hover:bg-[#D5BAA6] hover:text-[#252024] text-[#D5BAA6] group relative h-full w-full">
-                        
-                            <img className="block object-cover rounded-lg " src={img3} alt="ProjetoLoginFront" />
-
-                            <p className="text-center font-medium text-lg pt-4">
-                                Projeto-login
-                            </p>
-
-                            <p className="text-center font-medium text-sm mb-2 p-4">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quia odio ea cumque eaque ullam quo id? 
-                            </p>
-
-                            <p className="text-xl text-[#252024] font-medium pb-4 hidden group-hover:block absolute -bottom-3 left-0 ml-2">
-                            Concluído 
-                            </p>
-                        </a>
-
-                        <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank" className="p-4 mx-auto items-center justify-center flex flex-col border rounded-lg border-[#D5BAA6] transition hover:border-[#562300] ease-in-out hover:bg-[#D5BAA6] hover:text-[#252024] text-[#D5BAA6] group relative h-full w-fulll">
-                    
-                            <img className="block object-cover rounded-lg " src={img4} alt="ProjetoHamburgueria" />
-
-                            <p className="text-center font-medium text-lg pt-4">
-                                Projeto Hamburgueria
-                            </p>
-
-                            <p className="text-center font-medium text-sm mb-2 p-4">
-                            Cardápio interativo, permitindo aos clientes visualizar os itens disponíveis, preços , linguagens.
-                            </p>
-
-                            <p className="text-xl text-[#252024] font-medium pb-4 hidden group-hover:block absolute -bottom-3 left-0 ml-2">
-                                Concluído
-                            </p>
-                        </a>
+                        </div>
 
                     </div>
 
+                    <div className="flex flex-col sm:flex-row-reverse sm:space-x-4 items-center justify-center transition-all duration-500 ease">
+
+                        <div className="w-full sm:w-[45%] md:w-[40%] transition-all duration-500 ease">
+                            <img className="rounded-lg" src={img3} alt="Projeto Sistema de Login" />
+                        </div>
+
+                        <div className="text-azul-escuro text-start w-full md:w-[45%] mt-4 sm:mt-0 sm:ml-4 transition-all duration-500 ease group relative font-medium">
+
+                            <h1 className="text-lg md:text-2xl transition-all duration-500 ease">
+                                Projeto login
+                            </h1>
+
+                            <p className="font-medium text-md py-4">
+                                Desenvolvi um sistema de autenticação incorporando HTML, Tailwind CSS, PHP e um banco de dados MySQL. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque autem voluptates nam. Laudantium a numquam autem voluptatum cum consequatur, adipisci voluptates nemo similique ad placeat est dolor iure corporis dicta!
+                            </p>
+                            
+                            <a href="https://github.com/NiedjaMarques/projeto-login" target="_blank">
+                                <button className="px-4 py-2 bg-azul-escuro text-cinza-claro rounded shadow-md shadow-azul-escuro transition-all duration-500 ease">
+                                    GITHUB
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </div>   
+
+                    <div className="flex flex-col sm:flex-row sm:space-x-4 items-center justify-center transition-all duration-500 ease">
+
+                        <div className="w-full sm:w-[45%] md:w-[40%] transition-all duration-500 ease">
+                            <img className="rounded-lg" src={img4} alt="Projeto Sistema de Login" />
+                        </div>
+
+                        <div className="text-azul-escuro text-start w-full md:w-[45%] mt-4 sm:mt-0 sm:ml-4 transition-all duration-500 ease group relative font-medium">
+
+                            <h1 className="text-lg md:text-2xl transition-all duration-500 ease">
+                                Projeto Hamburgueria
+                            </h1>
+
+                            <p className="font-medium text-md py-4">
+                                Cardápio interativo, permitindo aos clientes visualizar os itens disponíveis, preços , linguagens. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quisquam eligendi perferendis velit excepturi id provident distinctio ad cupiditate autem laborum, quia reiciendis ea, dolores labore ut necessitatibus modi saepe.
+                            </p>
+                            
+                            <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank">
+                                <button className="px-4 py-2 bg-azul-escuro text-cinza-claro rounded shadow-md shadow-azul-escuro transition-all duration-500 ease">
+                                    GITHUB
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </div>                   
+
                 </div>
 
-            </div>
+            </section>
         </>
     )
 }
