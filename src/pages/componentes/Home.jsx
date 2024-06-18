@@ -7,7 +7,7 @@ import imgPrincipal from '../../../app/view/imagens/oculosretangulo.jpg'
 function Home(){
     return (
       <>
-        <section className="flex items-center justify-around h-[100vh] px-4 pt-20">
+        <section className="flex items-center justify-around px-4 pt-20">
 
             <div className='text-center sm:text-start'>
 

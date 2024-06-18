@@ -5,9 +5,9 @@ import img4 from '../../../app/view/imagens/ProjetoHamburgueria.png'
 const Projetos = () => {
     return (
         <>
-            <section className="py-10 bg-verde-menta">
-
-                <h1 className="text-3xl text-azul-escuro sm:text-4xl font-bold p-4 text-center mb-12 transition-all duration-500 ease">
+            <section className="py-10 bg-azul-escuro">
+                <hr />
+                <h1 className=" text-3xl text-cinza-claro sm:text-4xl font-bold p-4 text-center mb-12 transition-all duration-500 ease">
                     Projetos
                 </h1>
 
@@ -19,7 +19,7 @@ const Projetos = () => {
                             <img className="rounded-lg" src={img2} alt="Projeto Sistema de Login" />
                         </div>
 
-                        <div className="text-azul-escuro text-start w-full md:w-[45%] mt-4 sm:mt-0 sm:ml-4 transition-all duration-500 ease group relative font-medium">
+                        <div className="text-cinza-claro text-center w-full md:w-[45%] mt-4 sm:mt-0 sm:ml-4 transition-all duration-500 ease group relative font-medium">
 
                             <h1 className="text-lg md:text-2xl transition-all duration-500 ease">
                                 Sistema de Login
@@ -30,7 +30,7 @@ const Projetos = () => {
                             </p>
                             
                             <a href="https://github.com/NiedjaMarques/Sistema-de-Autentica--o" target="_blank">
-                                <button className="px-4 py-2 bg-azul-escuro text-cinza-claro rounded shadow-md shadow-azul-escuro transition-all duration-500 ease">
+                                <button className="px-4 py-2 bg-cinza-claro text-azul-escuro rounded shadow-md transition-all duration-500 ease">
                                     GITHUB
                                 </button>
                             </a>
@@ -45,7 +45,7 @@ const Projetos = () => {
                             <img className="rounded-lg" src={img3} alt="Projeto Sistema de Login" />
                         </div>
 
-                        <div className="text-azul-escuro text-start w-full md:w-[45%] mt-4 sm:mt-0 sm:ml-4 transition-all duration-500 ease group relative font-medium">
+                        <div className="text-cinza-claro text-center w-full md:w-[45%] mt-4 sm:mt-0 sm:ml-4 transition-all duration-500 ease group relative font-medium">
 
                             <h1 className="text-lg md:text-2xl transition-all duration-500 ease">
                                 Projeto login
@@ -56,7 +56,7 @@ const Projetos = () => {
                             </p>
                             
                             <a href="https://github.com/NiedjaMarques/projeto-login" target="_blank">
-                                <button className="px-4 py-2 bg-azul-escuro text-cinza-claro rounded shadow-md shadow-azul-escuro transition-all duration-500 ease">
+                                <button className="px-4 py-2 bg-cinza-claro text-azul-escuro rounded shadow-md transition-all duration-500 ease">
                                     GITHUB
                                 </button>
                             </a>
@@ -71,7 +71,7 @@ const Projetos = () => {
                             <img className="rounded-lg" src={img4} alt="Projeto Sistema de Login" />
                         </div>
 
-                        <div className="text-azul-escuro text-start w-full md:w-[45%] mt-4 sm:mt-0 sm:ml-4 transition-all duration-500 ease group relative font-medium">
+                        <div className="text-cinza-claro text-center w-full md:w-[45%] mt-4 sm:mt-0 sm:ml-4 transition-all duration-500 ease group relative font-medium">
 
                             <h1 className="text-lg md:text-2xl transition-all duration-500 ease">
                                 Projeto Hamburgueria
@@ -82,7 +82,7 @@ const Projetos = () => {
                             </p>
                             
                             <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank">
-                                <button className="px-4 py-2 bg-azul-escuro text-cinza-claro rounded shadow-md shadow-azul-escuro transition-all duration-500 ease">
+                                <button className="px-4 py-2 bg-cinza-claro text-azul-escuro rounded shadow-md transition-all duration-500 ease">
                                     GITHUB
                                 </button>
                             </a>

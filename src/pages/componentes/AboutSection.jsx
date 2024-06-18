@@ -2,7 +2,7 @@ import imgEu from '../../../app/view/imagens/oculosretangulo.jpg'
 function About(){
     return(
         <>
-            <section className="py-10 bg-azul-claro">
+            <section className="py-10 bg-azul-escuro">
 
                 <div className="container px-4 mx-auto flex flex-col items-center justify-center sm:flex-row transition-all duration-500 ease">
 
