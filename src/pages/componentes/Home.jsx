@@ -7,7 +7,7 @@ import imgPrincipal from '../../../app/view/imagens/cabelolongoproxxima.jpg'
 function Home(){
     return (
       <>
-        <section className="flex items-center justify-around h-[100vh] px-4 pt-20 mb-14 ">
+        <section className="flex items-center justify-around h-[100vh]  px-4 pt-24 mb-14 ">
 
             <div className='text-center sm:text-start'>
 
@@ -40,7 +40,7 @@ function Home(){
 
             <div className='hidden md:flex w-[40%]'>
 
-                <img className='rounded-3xl shadow-lg shadow-azul-escuro w-[70%] ' src={imgPrincipal} alt="imagem principal" />
+                <img className='rounded-3xl shadow-lg shadow-azul-escuro w-[70%]' src={imgPrincipal} alt="imagem principal" />
 
             </div>
 
