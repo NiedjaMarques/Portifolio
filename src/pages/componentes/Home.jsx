@@ -1,13 +1,13 @@
 import iconLinkedin from '../../../app/view/icons/icons8-linkedin.svg'
 import iconCurriculo from '../../../app/view/icons/icons8-curriculo.svg'
 import iconGithub from '../../../app/view/icons/icons8-github.svg'
-import imgPrincipal from '../../../app/view/imagens/oculosretangulo.jpg'
+import imgPrincipal from '../../../app/view/imagens/cabelolongoproxxima.jpg'
 
 
 function Home(){
     return (
       <>
-        <section className="flex items-center justify-around h-[100vh] px-4 pt-20">
+        <section className="flex items-center justify-around h-[100vh] px-4 pt-20 mb-14 ">
 
             <div className='text-center sm:text-start'>
 
@@ -40,7 +40,7 @@ function Home(){
 
             <div className='hidden md:flex w-[40%]'>
 
-                <img className='rounded-full shadow-lg shadow-azul-escuro' src={imgPrincipal} alt="imagem principal" />
+                <img className='rounded-3xl shadow-lg shadow-azul-escuro w-[70%] ' src={imgPrincipal} alt="imagem principal" />
 
             </div>
 

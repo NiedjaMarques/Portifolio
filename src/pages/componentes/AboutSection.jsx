@@ -7,7 +7,7 @@ function About(){
                 <div className="container px-4 mx-auto flex flex-col items-center justify-center sm:flex-row transition-all duration-500 ease">
 
                     <div className='pb-5 max-w-[45%] md:w-[40%] sm:mr-4 transition-all duration-500 ease'>
-                        <img className='rounded-full shadow-lg shadow-cinza-claro' src={imgEu} alt="Niedja Marques" />
+                        <img className='rounded-3xl shadow-sm shadow-cinza-claro' src={imgEu} alt="Niedja Marques" />
                     </div>
 
                     <div className="pb-5 text-cinza-claro text-center sm:text-start sm:ml-4 sm:w-1/2 transition-all duration-500 ease">
