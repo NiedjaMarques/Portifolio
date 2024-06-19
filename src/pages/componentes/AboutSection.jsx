@@ -10,24 +10,20 @@ function About(){
                         <img className='rounded-3xl shadow-sm shadow-cinza-claro' src={imgEu} alt="Niedja Marques" />
                     </div>
 
-                    <div className="pb-5 text-cinza-claro text-center sm:text-start sm:ml-4 sm:w-1/2 transition-all duration-500 ease">
+                    <div className="pb-5 text-cinza-claro text-center sm:text-start sm:ml-4 sm:w-1/2 transition-all duration-500 ease leading-relaxed">
 
                         <h1 className="text-3xl sm:text-4xl font-bold transition-all duration-500 ease">
                             Sobre mim
                         </h1>
 
-                        <p className="py-5 font-medium">
-                            Olá! Meu nome é Niedja Marques e sou desenvolvedora web em transição de carreira. Deixei a área financeira para seguir minha paixão pela criação de sites e sistemas. Sempre busco aprimorar minhas habilidades tanto em front-end quanto em back-end. Estou constantemente em busca de aprendizado contínuo, seja através de cursos online, workshops ou projetos pessoais. Durante minha jornada, me dediquei e criei diversos projetos, sempre buscando aprender e me aprimorar. Esses projetos me ajudaram a fortalecer minhas habilidades e a consolidar meu conhecimento em desenvolvimento web.
-
-                            {/* Desenvolvedora web em transição de carreira, com experiência sólida em HTML, 
-                            CSS, JavaScript e Tailwind CSS para o desenvolvimento de interfaces intuitivas.
-                            No back-end, tenho habilidades em PHP, Programação Orientada a Objetos (POO), 
-                            Model-View-Controller (MVC) e gerenciamento de bancos de dados MySQL. 
-                            Sou detalhista e focada em resolução de problemas, com experiência em 
-                            desenvolvimento de aplicativos web. Estou comprometida em aprimorar minhas 
-                            competências e contribuir para projetos desafiadores, criando soluções robustas
-                            e eficientes. */}
+                        <p className="py-2 font-medium">
+                            Olá! Meu nome é Niedja Marques, uma desenvolvedora web em transição de carreira. Estou sempre buscando aprimorar minhas habilidades tanto em front-end quanto em back-end. Tenho experiência sólida em HTML, CSS, JavaScript, React JS e Tailwind CSS para desenvolver interfaces intuitivas e responsivas.
                         </p>
+
+                        <p className='py-2 font-medium'>
+                            No back-end, possuo habilidades em PHP, Programação Orientada a Objetos (POO) e aplicação do padrão Model-View-Controller (MVC) para otimização de desempenho, além do gerenciamento de bancos de dados MySQL.
+                        </p>
+                                                
                     </div>                   
 
                 </div>
