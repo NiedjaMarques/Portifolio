@@ -22,7 +22,4 @@ function App() {
     </>
   )
 }
-
 export default App
-
-{/* scrooll personalizado /// fonte para o site // imagens aparecendo na tela // rotas dos links // procurar rolagem suave */}
