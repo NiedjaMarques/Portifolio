@@ -94,7 +94,7 @@ const ContactForm = () => {
         <>
             <div className='transition-all duration-500 ease'>
 
-                <form onSubmit={sendEmail} className="form max-w-md mt-8 p-4 border rounded-lg shadow-sm">
+                <form onSubmit={sendEmail} className="form max-w-md mt-8 p-4 border rounded-lg shadow-sm text-black">
 
                     <input
                     type="text"
