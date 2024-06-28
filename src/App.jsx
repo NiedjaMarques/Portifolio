@@ -4,7 +4,6 @@ import About from './pages/componentes/AboutSection.jsx'
 import Projects from './pages/componentes/ProjetosSection.jsx'
 import Contact from './pages/componentes/ContactSection.jsx'
 import MainLayout from './pages/componentes/MainLayout.jsx'
-import Skills from './pages/componentes/SkillSection.jsx'
 
 const App = () => {
   return (
@@ -14,7 +13,6 @@ const App = () => {
         <Home/>
         <About/>
         <Projects/>
-        {/* <Skills/> */}
         <Contact />
       </MainLayout>
     </>

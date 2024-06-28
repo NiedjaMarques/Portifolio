@@ -45,12 +45,12 @@ const Projetos = () => {
 
                         <div className='sm:max-w-[50%] '>
 
-                            <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg ">
+                            <a href="https://github.com/NiedjaMarques/Portifolio" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
                             &lt;a&gt;Meu Portifólio&lt;/a&gt;
                             </a>
 
                             <p className="pt-4">
-                                Desenvolvi um portfólio com o objetivo de apresentar meus trabalhos e habilidades para visitantes interessados em conhecer mais sobre mim como desenvolvedora. Utilizei tecnologias modernas como <span className='text-azul-claro font-bold'>Tailwind CSS</span>, <span className='text-azul-claro font-bold'>React JS</span>, <span className='text-azul-claro font-bold'>HTML</span> e <span className='text-azul-claro font-bold'>Node.js</span>, aplicando métodos de <span className='text-azul-claro font-bold'>POO</span> e o padrão <span className='text-azul-claro font-bold'>MVC</span>. Este projeto serve como um currículo digital, destacando minha experiência e competências técnicas de forma clara e organizada.
+                            Desenvolvi um portfólio com o objetivo de apresentar meus trabalhos e habilidades para visitantes interessados em conhecer mais sobre mim como desenvolvedora. Utilizei <span className='text-azul-claro font-bold'>Tailwind CSS</span>, <span className='text-azul-claro font-bold'>React JS</span>, <span className='text-azul-claro font-bold'>HTML</span> e <span className='text-azul-claro font-bold'>Node.js</span>, aplicando métodos de <span className='text-azul-claro font-bold'>POO</span> e o padrão <span className='text-azul-claro font-bold'>MVC</span>. Além disso, integrei o <span className='text-azul-claro font-bold'>Email.js</span> para permitir o envio de emails diretamente para minha conta do Google. Este projeto serve como um currículo digital, destacando minha experiência e competências técnicas de forma clara e organizada.
                             </p>
 
                         </div>

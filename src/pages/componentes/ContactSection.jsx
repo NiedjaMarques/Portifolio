@@ -12,42 +12,41 @@ const Contact = () => {
         <>
             <footer className="grid sm:grid-cols-2 gap-4 items-center pb-10 pt-4 transition-all duration-500 ease " id='contact'>               
 
-                    <div>
+                <div>
 
-                        <h1 className="font-bold text-3xl sm:text-4xl mb-5 transition-all duration-500 ease">
-                            <span className='text-verde'>04.</span>Contato
-                        </h1>
-                        
-                        <ContactForm />
-                    </div>
+                    <h1 className="font-bold text-3xl sm:text-4xl mb-5 transition-all duration-500 ease">
+                        <span className='text-verde'>04.</span>Contato
+                    </h1>
+                    
+                    <ContactForm />
+                </div>
 
-                    <div className='py-4'>
+                <div className='py-4'>
 
-                        <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className="my-2 flex items-center w-[200px] hover:text-verde duration-300 transition-all ease">
-                            <img className='transform duration-500 mx-2 rounded-full h-10' src={iconLinkedin} alt="logo linkedin" />
-                            <p className='font-medium'>/niedja-marques</p>
-                        </a>
+                    <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className="my-2 flex items-center w-[200px] hover:text-verde duration-300 transition-all ease">
+                        <img className='transform duration-500 mx-2 rounded-full h-10' src={iconLinkedin} alt="logo linkedin" />
+                        <p className='font-medium'>/niedja-marques</p>
+                    </a>
 
-                        <a href="https://github.com/NiedjaMarques" target="_blank" className="w-[200px] hover:text-verde duration-300 transition-all ease my-2 flex items-center">
-                            <img className='transform duration-500 mx-2 rounded-full h-10' src={iconGithub} alt="logo Github" />
-                            <p className='font-medium'>/NiedjaMarques</p>
-                        </a>
+                    <a href="https://github.com/NiedjaMarques" target="_blank" className="w-[200px] hover:text-verde duration-300 transition-all ease my-2 flex items-center">
+                        <img className='transform duration-500 mx-2 rounded-full h-10' src={iconGithub} alt="logo Github" />
+                        <p className='font-medium'>/NiedjaMarques</p>
+                    </a>
 
-                        <a href="mailto:niedja.marquees@gmail.com" target="_blank" className="w-[300px hover:text-verde duration-300 transition-all ease my-2 flex items-center">
-                            <img className='transform duration-500 mx-2 rounded-full h-10 p-1' src={iconEmail} alt="logo email" />
-                            <p className='font-medium'>niedja.marquees@gmail.com</p>
-                        </a>
+                    <a href="mailto:niedja.marquees@gmail.com" target="_blank" className="w-[300px hover:text-verde duration-300 transition-all ease my-2 flex items-center">
+                        <img className='transform duration-500 mx-2 rounded-full h-10 p-1' src={iconEmail} alt="logo email" />
+                        <p className='font-medium'>niedja.marquees@gmail.com</p>
+                    </a>
 
-                        <p className='pt-5 max-w-sm'>
-                            Gostaria de saber mais sobre meus projetos ou tem alguma oportunidade para mim? <br /><br />Sinta-se à vontade para entrar em contato através do formulário ou pelo meu e-mail. Responderei o mais breve possível!
-                        </p>
+                    <p className='pt-5 max-w-sm text-sm'>
+                        Gostaria de saber mais sobre meus projetos ou tem alguma oportunidade para mim? <br /><br />Sinta-se à vontade para entrar em contato através do formulário ou pelo meu e-mail. Responderei o mais breve possível!
+                    </p>
 
-                    </div>  
-
-                                                    
+                </div>  
 
             </footer>
-            <p className='p-5 text-center'>
+
+            <p className='p-5 text-center text-xs'>
                 © 2024 / Niedja Marques / Todos os direitos reservados
             </p>
         </>
