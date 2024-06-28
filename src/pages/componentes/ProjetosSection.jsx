@@ -38,7 +38,7 @@ const Projetos = () => {
 
                     <div className='transition-all duration-300 ease-in flex flex-col sm:flex-row-reverse items-center'>
 
-                        <div className='sm:max-w-[40%] mr-5'>
+                        <div className='sm:max-w-[40%] ml-5'>
                             <img className="w-full mb-4 transition-all duration-500 ease rounded-lg" src={img4} alt="Projeto Humburgueria" />
                         </div>
 
