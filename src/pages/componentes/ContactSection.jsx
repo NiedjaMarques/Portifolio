@@ -38,9 +38,18 @@ const Contact = () => {
                             <p className='font-medium'>niedja.marquees@gmail.com</p>
                         </a>
 
-                    </div>                                  
+                        <p className='pt-5 max-w-sm'>
+                            Gostaria de saber mais sobre meus projetos ou tem alguma oportunidade para mim? <br /><br />Sinta-se à vontade para entrar em contato através do formulário ou pelo meu e-mail. Responderei o mais breve possível!
+                        </p>
+
+                    </div>  
+
+                                                    
 
             </footer>
+            <p className='p-5 text-center'>
+                © 2024 / Niedja Marques / Todos os direitos reservados
+            </p>
         </>
     )
  }

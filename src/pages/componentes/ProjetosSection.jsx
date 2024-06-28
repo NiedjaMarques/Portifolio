@@ -2,6 +2,7 @@ import React from 'react';
 import img2 from '../../../app/view/imagens/ProjetoSistemadeLogin.png'
 import img3 from '../../../app/view/imagens/ProjetoLoginFront.png'
 import img4 from '../../../app/view/imagens/ProjetoHamburgueria.png'
+import img5 from '../../../app/view/imagens/portifolioimg.jpg'
 
 const Projetos = () => {
     return (
@@ -14,7 +15,7 @@ const Projetos = () => {
                     </h1>
                 </div>
 
-                <div className="grid grid-cols-1 gap-8 ">                   
+                <div className="grid grid-cols-1 gap-12 ">                   
 
                     <div className='transition-all duration-300 ease-in flex flex-col sm:flex-row items-center'>
 
@@ -38,7 +39,27 @@ const Projetos = () => {
 
                     <div className='transition-all duration-300 ease-in flex flex-col sm:flex-row-reverse items-center'>
 
-                        <div className='sm:max-w-[40%] ml-5'>
+                        <div className='sm:max-w-[50%] ml-5 border rounded-lg p-4'>
+                            <img className="w-full mb-4 transition-all duration-500 ease rounded-lg" src={img5} alt="Projeto Portifólio" />
+                        </div>
+
+                        <div className='sm:max-w-[50%] '>
+
+                            <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg ">
+                            &lt;a&gt;Meu Portifólio&lt;/a&gt;
+                            </a>
+
+                            <p className="pt-4">
+                                Desenvolvi um portfólio com o objetivo de apresentar meus trabalhos e habilidades para visitantes interessados em conhecer mais sobre mim como desenvolvedora. Utilizei tecnologias modernas como <span className='text-azul-claro font-bold'>Tailwind CSS</span>, <span className='text-azul-claro font-bold'>React JS</span>, <span className='text-azul-claro font-bold'>HTML</span> e <span className='text-azul-claro font-bold'>Node.js</span>, aplicando métodos de <span className='text-azul-claro font-bold'>POO</span> e o padrão <span className='text-azul-claro font-bold'>MVC</span>. Este projeto serve como um currículo digital, destacando minha experiência e competências técnicas de forma clara e organizada.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div className='transition-all duration-300 ease-in flex flex-col sm:flex-row items-center'>
+
+                        <div className='sm:max-w-[40%] mr-5'>
                             <img className="w-full mb-4 transition-all duration-500 ease rounded-lg" src={img4} alt="Projeto Humburgueria" />
                         </div>
 
@@ -56,9 +77,9 @@ const Projetos = () => {
 
                     </div> 
 
-                    <div className=' transition-all duration-300 ease-in flex flex-col sm:flex-row items-center'>
+                    <div className=' transition-all duration-300 ease-in flex flex-col sm:flex-row-reverse items-center'>
 
-                        <div className='sm:max-w-[40%] mr-5'>
+                        <div className='sm:max-w-[40%] ml-5'>
                             <img className="w-full mb-4 transition-all duration-500 ease rounded-lg" src={img3} alt="Pagina de login responsiva" />
                         </div>                       
 
