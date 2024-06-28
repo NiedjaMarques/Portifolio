@@ -10,40 +10,35 @@ import iconGithub from '../../../app/view/icons/icons8-github.svg'
 const Contact = () => {
     return (
         <>
-            <footer className="container mx-auto px-4 pb-10" id='contact'>               
+            <footer className="grid sm:grid-cols-2 gap-4 items-center pb-10 pt-4 transition-all duration-500 ease " id='contact'>               
 
-                <div className="flex flex-col items-center justify-around md:flex-row transition-all duration-500 ease">
+                    <div>
 
-                    <div className=''>
-
-                        <h1 className="text-3xl sm:text-4xl font-bold text-start transition-all duration-500 ease">
+                        <h1 className="font-bold text-3xl sm:text-4xl mb-5 transition-all duration-500 ease">
                             <span className='text-verde'>04.</span>Contato
                         </h1>
-
+                        
                         <ContactForm />
-
                     </div>
 
-                    <div className='flex flex-col sm:justify-start py-4 md:[40%]'>
+                    <div className='py-4'>
 
-                        <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className="my-2 flex items-center">
+                        <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className="my-2 flex items-center w-[200px] hover:text-verde duration-300 transition-all ease">
                             <img className='transform duration-500 mx-2 rounded-full h-10' src={iconLinkedin} alt="logo linkedin" />
                             <p className='font-medium'>/niedja-marques</p>
                         </a>
 
-                        <a href="https://github.com/NiedjaMarques" target="_blank" className="my-2 flex items-center">
+                        <a href="https://github.com/NiedjaMarques" target="_blank" className="w-[200px] hover:text-verde duration-300 transition-all ease my-2 flex items-center">
                             <img className='transform duration-500 mx-2 rounded-full h-10' src={iconGithub} alt="logo Github" />
                             <p className='font-medium'>/NiedjaMarques</p>
                         </a>
 
-                        <a href="mailto:niedja.marquees@gmail.com" target="_blank" className="my-2 flex items-center">
+                        <a href="mailto:niedja.marquees@gmail.com" target="_blank" className="w-[300px hover:text-verde duration-300 transition-all ease my-2 flex items-center">
                             <img className='transform duration-500 mx-2 rounded-full h-10 p-1' src={iconEmail} alt="logo email" />
                             <p className='font-medium'>niedja.marquees@gmail.com</p>
                         </a>
 
-                    </div>                    
-
-                </div>                
+                    </div>                                  
 
             </footer>
         </>
@@ -94,7 +89,7 @@ const ContactForm = () => {
         <>
             <div className='transition-all duration-500 ease'>
 
-                <form onSubmit={sendEmail} className="form max-w-md mt-8 p-4 border rounded-lg shadow-sm text-black">
+                <form onSubmit={sendEmail} className="form max-w-md mt-5 p-4 border rounded-lg shadow-sm text-black">
 
                     <input
                     type="text"
@@ -129,7 +124,7 @@ const ContactForm = () => {
                     
                     <button
                     type="submit"
-                    className="w-full p-2 bg-rosa rounded-lg hover:bg-azul-claro focus:outline-none focus:ring-2">
+                    className="w-full p-2 bg-verde font-bold rounded-lg hover:bg-azul-claro transition-all duration-500 ease focus:outline-none focus:ring-2">
                     Enviar
                     </button>
 

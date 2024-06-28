@@ -6,72 +6,72 @@ import img4 from '../../../app/view/imagens/ProjetoHamburgueria.png'
 const Projetos = () => {
     return (
         <>
-            <section className="pb-12 container px-4 mx-auto" id='projects'>
+            <section className="pb-10 my-5 transition-all duration-500 ease" id='projects'>
 
-                <div className="text-start transition-all duration-500 ease">
-
-                    <h1 className="text-3xl sm:text-4xl font-bold transition-all duration-500 ease py-10 md:ml-6 lg:ml-28">
+                <div className='py-4 transition-all duration-500 ease'>
+                    <h1 className="font-bold text-3xl sm:text-4xl mb-5 transition-all duration-500 ease">
                         <span className='text-azul-claro'>03.</span>Projetos
                     </h1>
+                </div>
 
-                    <div className="flex flex-col sm:flex-row items-center justify-center transition-all duration-500 ease bgred-300 mb-10">
+                <div className="grid grid-cols-1 gap-8 ">                   
 
-                        <div className="max-w-[320px] transition-all duration-500 ease mb-3 sm:mb-0">
-                            <img className="rounded-lg w-full h-auto" src={img2} alt="Projeto Sistema de Login" />
+                    <div className='transition-all duration-300 ease-in flex flex-col sm:flex-row items-center'>
+
+                        <div className='sm:max-w-[40%] mr-5 '>
+                            <img className="w-full mb-4 transition-all duration-500 ease rounded-lg" src={img2} alt="Projeto Sistema de Login" />
                         </div>
 
-                        <div className="w-full md:max-w-[50%] sm:ml-4 transition-all duration-500 ease font-medium text-start">
+                        <div className='sm:max-w-[50%]'>
 
-                            <a href="https://github.com/NiedjaMarques/Sistema-de-Autentica--o" target="_blank" className=" text-2xl transition-all duration-500 ease hover:underline text-amarelo cursor-pointer">
-                                Sistema de Login
+                            <a href="https://github.com/NiedjaMarques/Sistema-de-Autentica--o" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
+                            &lt;a&gt;Sistema de Login&lt;/a&gt;
                             </a>
 
                             <p className='pt-4'>
-                                Desenvolvi um Sistema de Login utilizando PHP, MVC, HTML, Tailwind CSS e MySQL. Implementei funcionalidades de autenticação com gestão de sessões, criptografia de senhas no banco de dados e páginas de erro personalizadas para segurança adicional. Este projeto demonstra minhas habilidades em desenvolvimento web orientado a objetos, garantindo uma experiência de usuário segura e eficiente.
+                                Desenvolvi um Sistema de Login utilizando <span className='text-azul-claro font-bold'>PHP</span>, <span className='text-azul-claro font-bold'>HTML</span>, <span className='text-azul-claro font-bold'>Tailwind CSS</span> e <span className='text-azul-claro font-bold'>MySQL</span>. Implementei funcionalidades de autenticação com gestão de sessões, criptografia de senhas no banco de dados e páginas de erro personalizadas para segurança adicional, garantindo uma experiência de usuário segura e eficiente. Também utilizei minhas habilidades em <span className='text-azul-claro font-bold'>MVC</span> e <span className='text-azul-claro font-bold'>POO</span>.
                             </p>
 
-                        </div>
+                        </div>                       
 
                     </div>
 
-                    <div className="flex flex-col sm:flex-row-reverse items-center justify-center transition-all duration-500 ease bgred-300 mb-10">
+                    <div className='transition-all duration-300 ease-in flex flex-col sm:flex-row-reverse items-center'>
 
-                        <div className="max-w-[320px] transition-all duration-500 ease mb-3 sm:mb-0">
-                            <img className="rounded-lg w-full h-auto" src={img3} alt="Projeto Sistema de Login" />
+                        <div className='sm:max-w-[40%] mr-5'>
+                            <img className="w-full mb-4 transition-all duration-500 ease rounded-lg" src={img4} alt="Projeto Humburgueria" />
                         </div>
 
-                        <div className="w-full md:max-w-[50%] mr-2 sm:ml-4 transition-all duration-500 ease font-medium text-start">
+                        <div className='sm:max-w-[50%]'>
 
-                            <a href="https://github.com/NiedjaMarques/projeto-login" target="_blank" className="text-2xl transition-all duration-500 ease hover:underline text-amarelo cursor-pointer">
-                                Página de Login Responsiva
+                            <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
+                            &lt;a&gt;Cardápio Hamburgueria&lt;/a&gt;
                             </a>
 
                             <p className="pt-4">
-                                Um dos meus primeiros projetos foi criar uma página de login utilizando apenas HTML e CSS, focando em design responsivo. Esta iniciativa não apenas me permitiu explorar os fundamentos do desenvolvimento web, mas também desenvolver habilidades essenciais em design de interfaces acessíveis, garantindo que a página se ajustasse perfeitamente em diferentes tamanhos de tela, oferecendo uma experiência de usuário consistente em desktops, tablets e smartphones.
+                                Desenvolvi um cardápio interativo utilizando <span className='text-azul-claro font-bold'>Tailwind CSS</span>, <span className='text-azul-claro font-bold'>HTML</span>, <span className='text-azul-claro font-bold'>JavaScript</span> e <span className='text-azul-claro font-bold'>Node.js</span>. Este projeto permite aos clientes visualizar os itens disponíveis, preços e descrições. Além disso, implementei funcionalidades que direcionam os clientes ao WhatsApp para finalizar seus pedidos, proporcionando uma experiência de compra simplificada e direta.
                             </p>
 
                         </div>
 
-                    </div>   
+                    </div> 
 
-                    <div className="flex flex-col sm:flex-row items-center justify-center transition-all duration-500 ease bgred-300 mb-10">
+                    <div className=' transition-all duration-300 ease-in flex flex-col sm:flex-row items-center'>
 
-                        <div className="max-w-[320px] transition-all duration-500 ease mb-3 sm:mb-0">
-                            <img className="rounded-lg w-full h-auto" src={img4} alt="Projeto Sistema de Login" />
-                        </div>
+                        <div className='sm:max-w-[40%] mr-5'>
+                            <img className="w-full mb-4 transition-all duration-500 ease rounded-lg" src={img3} alt="Pagina de login responsiva" />
+                        </div>                       
 
-                        <div className="w-full md:max-w-[50%] sm:ml-4 transition-all duration-500 ease font-medium text-start">
-
-                            <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank" className="text-2xl transition-all duration-500 ease hover:underline text-amarelo cursor-pointer">
-                                Projeto Hamburgueria
+                        <div className='sm:max-w-[50%]'>
+                            <a href="https://github.com/NiedjaMarques/projeto-login" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
+                            &lt;a&gt;Página de Login Responsiva&lt;/a&gt;
                             </a>
-
                             <p className="pt-4">
-                                Desenvolvi um cardápio interativo para uma hamburgueria utilizando Tailwind CSS, HTML, JavaScript e Node.js. Este projeto permitiu aos clientes visualizar de forma intuitiva os itens disponíveis, preços e descrições detalhadas dos hambúrgueres e acompanhamentos. Além de apresentar informações detalhadas, implementei funcionalidades que direcionam os clientes ao WhatsApp para finalizar seus pedidos, proporcionando uma experiência de compra simplificada e direta.
+                                Um dos meus primeiros projetos foi a criação de uma página de login utilizando apenas <span className='text-azul-claro font-bold'>HTML</span> e <span className='text-azul-claro font-bold'>CSS</span>, com foco em design responsivo. Esse projeto me ajudou a aprender os fundamentos do desenvolvimento web e a criar interfaces acessíveis, garantindo uma experiência consistente em desktops, tablets e smartphones.
                             </p>
                         </div>
 
-                    </div>                   
+                    </div> 
 
                 </div>
 
