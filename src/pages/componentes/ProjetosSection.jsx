@@ -45,7 +45,7 @@ const Projetos = () => {
 
                         <div className='sm:max-w-[50%] '>
 
-                            <a href="https://github.com/NiedjaMarques/Portifolio" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
+                            <a href="https://portifolio-tau-orpin.vercel.app/" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
                             &lt;a&gt;Meu Portifólio&lt;/a&gt;
                             </a>
 
@@ -65,7 +65,7 @@ const Projetos = () => {
 
                         <div className='sm:max-w-[50%]'>
 
-                            <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
+                            <a href="https://projeto-hamburgueria-alpha.vercel.app/" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
                             &lt;a&gt;Cardápio Hamburgueria&lt;/a&gt;
                             </a>
 
@@ -84,7 +84,7 @@ const Projetos = () => {
                         </div>                       
 
                         <div className='sm:max-w-[50%]'>
-                            <a href="https://github.com/NiedjaMarques/projeto-login" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
+                            <a href="https://projeto-login-pearl.vercel.app/" target="_blank" className="transition-all duration-500 ease hover:underline mb-4 text-azul-claro font-bold cursor-pointer text-lg">
                             &lt;a&gt;Página de Login Responsiva&lt;/a&gt;
                             </a>
                             <p className="pt-4">
