@@ -15,7 +15,7 @@ Home = () => {
                 </h1>
 
                 <p className='transition-all duration-500 ease'>
-                    Olá, sou <span className='font-bold'>desenvolvedora web</span>. <span className='animate-color-transition font-bold'>Bem-vindos ao meu portfólio</span>, onde cada linha de código representa um passo na construção de algo novo e significativo.
+                    Olá, sou <span className='animate-color-transition font-bold'>desenvolvedora web</span>. Bem-vindos ao meu portfólio, onde cada linha de código representa um passo na construção de algo novo.
                 </p> {/**/}
         
                 {/* <h2 className="text-2xl sm:text-3xl pb-2 font-semibold">
