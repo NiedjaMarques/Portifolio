@@ -21,22 +21,22 @@ const Contact = () => {
                     <ContactForm />
                 </div>
 
-                <div className='py-4'>
+                <div className='py-4 bg-slate-800'>
 
-                    <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className="my-2 flex items-center w-[200px] hover:text-verde duration-300 transition-all ease">
-                        <img className='transform duration-500 mx-2 rounded-full h-10' src={iconLinkedin} alt="logo linkedin" />
-                        <p className='font-medium'>/niedja-marques</p>
+                    <div className="flex items-center">
+                        <img className='transform duration-500 rounded-full h-10' src={iconLinkedin} alt="logo linkedin" />
+                        <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className='font-medium hover:underline hover:text-verde duration-300 transition-all ease'>/niedja-marques</a>
+                    </div>
+
+                    <a className="flex items-center">
+                        <img className='transform duration-500 rounded-full h-10' src={iconGithub} alt="logo Github"/>
+                        <a href="https://github.com/NiedjaMarques" target="_blank" className='font-medium hover:underline hover:text-verde duration-300 transition-all ease'>/NiedjaMarques</a>
                     </a>
 
-                    <a href="https://github.com/NiedjaMarques" target="_blank" className="w-[200px] hover:text-verde duration-300 transition-all ease my-2 flex items-center">
-                        <img className='transform duration-500 mx-2 rounded-full h-10' src={iconGithub} alt="logo Github" />
-                        <p className='font-medium'>/NiedjaMarques</p>
-                    </a>
-
-                    <a href="mailto:niedja.marquees@gmail.com" target="_blank" className="w-[300px hover:text-verde duration-300 transition-all ease my-2 flex items-center">
-                        <img className='transform duration-500 mx-2 rounded-full h-10 p-1' src={iconEmail} alt="logo email" />
-                        <p className='font-medium'>niedja.marquees@gmail.com</p>
-                    </a>
+                    <div className="flex items-center">
+                        <img className='transform duration-500 rounded-full h-10 p-1' src={iconEmail} alt="logo email" />
+                        <a href="mailto:niedja.marquees@gmail.com" target="_blank" className='font-medium hover:underline hover:text-verde duration-300 transition-all ease'>niedja.marquees@gmail.com</a>
+                    </div>
 
                     <p className='pt-5 max-w-sm text-sm'>
                         Gostaria de saber mais sobre meus projetos ou tem alguma oportunidade para mim? <br /><br />Sinta-se à vontade para entrar em contato através do formulário ou pelo meu e-mail. Responderei o mais breve possível!
