@@ -4,14 +4,13 @@ import emailJs from '@emailjs/browser'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaGithub } from "react-icons/fa6";
-import iconLinkedin from '../../../app/view/icons/icons8-linkedin.svg'
-import iconEmail from '../../../app/view/icons/icons8-email.svg'
-import iconGithub from '../../../app/view/icons/icons8-github.svg'
+import { FaEnvelope } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 
 const Contact = () => {
     return (
         <>
-            <footer className="grid sm:grid-cols-2 gap-4 items-center pb-10 pt-4 transition-all duration-500 ease " id='contact'>               
+            <footer className="grid sm:grid-cols-2 gap-4 items-center pb-10 pt-4 transition-all duration-500 ease" id='contact'>               
 
                 <div>
 
@@ -25,17 +24,17 @@ const Contact = () => {
                 <div className='py-4'>
 
                     <div className="flex items-center mb-2">
-                        <img className='transform duration-500 rounded-full h-10' src={iconLinkedin} alt="logo linkedin" />
+                        <FaLinkedin className='text-[#84E296] text-3xl mr-2'/>
                         <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className='font-medium hover:underline hover:text-verde duration-300 transition-all ease'>/niedja-marques</a>
                     </div>
 
-                    <a className="flex items-center mb-2">
-                        {/* <img className='transform duration-500 rounded-full h-10' src={FaGithub} alt="logo Github"/> */}<FaGithub className=' text-[#84E296] text-3xl mr-2'/>
+                    <div className="flex items-center mb-2">
+                        <FaGithub className='text-[#84E296] text-3xl mr-2'/>
                         <a href="https://github.com/NiedjaMarques" target="_blank" className='font-medium hover:underline hover:text-verde duration-300 transition-all ease'>/NiedjaMarques</a>
-                    </a>
+                    </div>
 
                     <div className="flex items-center">
-                        <img className='transform duration-500 rounded-full h-10 p-1' src={iconEmail} alt="logo email" />
+                        <FaEnvelope className='text-[#84E296] text-3xl mr-2'/>
                         <a href="mailto:niedja.marquees@gmail.com" target="_blank" className='font-medium hover:underline hover:text-verde duration-300 transition-all ease'>niedja.marquees@gmail.com</a>
                     </div>
 
@@ -53,7 +52,6 @@ const Contact = () => {
         </>
     )
  }
-
 const ContactForm = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
