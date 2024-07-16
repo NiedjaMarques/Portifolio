@@ -3,6 +3,7 @@ import { useState } from 'react'
 import emailJs from '@emailjs/browser'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FaGithub } from "react-icons/fa6";
 import iconLinkedin from '../../../app/view/icons/icons8-linkedin.svg'
 import iconEmail from '../../../app/view/icons/icons8-email.svg'
 import iconGithub from '../../../app/view/icons/icons8-github.svg'
@@ -29,7 +30,7 @@ const Contact = () => {
                     </div>
 
                     <a className="flex items-center mb-2">
-                        <img className='transform duration-500 rounded-full h-10' src={iconGithub} alt="logo Github"/>
+                        {/* <img className='transform duration-500 rounded-full h-10' src={FaGithub} alt="logo Github"/> */}<FaGithub className=' text-[#84E296] text-3xl mr-2'/>
                         <a href="https://github.com/NiedjaMarques" target="_blank" className='font-medium hover:underline hover:text-verde duration-300 transition-all ease'>/NiedjaMarques</a>
                     </a>
 
