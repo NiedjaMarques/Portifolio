@@ -3,9 +3,7 @@ import { useState } from 'react'
 import emailJs from '@emailjs/browser'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { FaGithub } from "react-icons/fa6";
-import { FaEnvelope } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa6";
 
 const Contact = () => {
     return (
