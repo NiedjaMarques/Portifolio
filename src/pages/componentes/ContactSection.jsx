@@ -21,14 +21,14 @@ const Contact = () => {
                     <ContactForm />
                 </div>
 
-                <div className='py-4 bg-slate-800'>
+                <div className='py-4'>
 
-                    <div className="flex items-center">
+                    <div className="flex items-center mb-2">
                         <img className='transform duration-500 rounded-full h-10' src={iconLinkedin} alt="logo linkedin" />
                         <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className='font-medium hover:underline hover:text-verde duration-300 transition-all ease'>/niedja-marques</a>
                     </div>
 
-                    <a className="flex items-center">
+                    <a className="flex items-center mb-2">
                         <img className='transform duration-500 rounded-full h-10' src={iconGithub} alt="logo Github"/>
                         <a href="https://github.com/NiedjaMarques" target="_blank" className='font-medium hover:underline hover:text-verde duration-300 transition-all ease'>/NiedjaMarques</a>
                     </a>
