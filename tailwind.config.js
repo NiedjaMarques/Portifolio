@@ -9,12 +9,16 @@ module.exports = {
         'amarelo': '#EAC047', //amarelo
         'azul-claro': '#2C7BE1', //azul claro
         'verde': '#84E296', // verde
-
-        // 'azul-escuro': '#1B263B',
-        // 'azul-claro': '#4A90E2',
-        // 'cinza-claro': '#D9E2EC',
-        // 'verde-menta': '#8ED081',
-        // 'laranja-coral': '#FF6F61',
+      },
+      animation: {
+        'color-transition': 'colorTransition 3s infinite',
+      },
+      keyframes: {
+        colorTransition: {
+          '0%, 100%': { color: '#FF8098' }, // rosa
+          '50%': { color: '#EAC047' },    // amarelo
+          '75%': { color: '#84E296' },    // verde
+        },
       },
     },
   },
