@@ -5,6 +5,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa6";
 
+//porque esse id do contact
+
 const Contact = () => {
     return (
         <>
