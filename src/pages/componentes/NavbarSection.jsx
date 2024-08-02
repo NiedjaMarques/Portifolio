@@ -42,14 +42,14 @@ const MobileMenu = () => {
 
                 <button type="button" className="relative inline-flex items-center justify-center rounded-md p-2" aria-controls="mobile-menu" aria-expanded={isOpen} onClick={() => setIsOpen(!isOpen)}>
 
-                <span className="absolute -inset-0.5"></span>
-                <span className="sr-only">Open main menu</span>
+                    <span className="absolute -inset-0.5"></span>
+                    <span className="sr-only">Open main menu</span>
 
-                {isOpen ? (
-                    <FaX className='text-xl text-rosa' />
-                ) : (
-                    <FaAlignRight className='text-2xl text-rosa' />
-                )}
+                    {isOpen ? (
+                        <FaX className='text-xl text-rosa' />
+                    ) : (
+                        <FaAlignRight className='text-2xl text-rosa' />
+                    )}
 
                 </button>
 

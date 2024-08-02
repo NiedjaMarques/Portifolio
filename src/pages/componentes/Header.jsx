@@ -18,7 +18,7 @@ const Header = () => {
 
     return(
         <>
-            <header className={`fixed top-0 left-0 z-20 w-full transition duration-500 ${scroll ? 'bg-azul-escuro  shadow-sm shadow-slate-50 ' : 'bg-azul-escuro'}`} id="header">      
+            <header className={`fixed top-0 left-0 z-20 w-full transition duration-500 ${scroll ? 'bg-azul-escuro  shadow-sm shadow-slate-50 ' : 'bg-azul-escuro'}`}>      
                 <Navbar />
             </header>                      
         </>
