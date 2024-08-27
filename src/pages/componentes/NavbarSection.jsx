@@ -24,8 +24,8 @@ const NavLinks = () => {
                 <ScrollLink smooth={true} duration={500} to="home" offset={-headerHeight} className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-cinza-claro"><span className='text-rosa'>01.</span>Home</ScrollLink>
                 <ScrollLink smooth={true} duration={500} to="about" offset={-headerHeight} className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-cinza-claro"><span className='text-amarelo'>02.</span>About</ScrollLink>
                 <ScrollLink smooth={true} duration={500} to="projects" offset={-headerHeight} className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-cinza-claro"><span className='text-azul-claro'>03.</span>Projects</ScrollLink>
-                {/* <ScrollLink smooth={true} duration={500} to="skills" offset={-headerHeight} className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-cinza-claro"><span className='text-verde'>04.</span>Skills</ScrollLink> */}
-                <ScrollLink smooth={true} duration={500} to="contact" offset={-headerHeight} className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-cinza-claro"><span className='text-verde'>04.</span>Contact</ScrollLink>
+                <ScrollLink smooth={true} duration={500} to="skills" offset={-headerHeight} className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-cinza-claro"><span className='text-verde'>04.</span>Skills</ScrollLink>
+                <ScrollLink smooth={true} duration={500} to="contact" offset={-headerHeight} className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-cinza-claro"><span className='text-rosa'>05.</span>Contact</ScrollLink>
             </div>
         </div>
     </>
@@ -68,12 +68,12 @@ const MobileMenu = () => {
                         <FaDiagramProject className='text-azul-claro text-xl'/>
                     </ScrollLink>
 
-                    {/* <ScrollLink to="skills" smooth={true} duration={500} offset={-headerHeight} className="block px-4 py-2" title='Skills'>
-                        <FaList className=' text-xl'/>
-                    </ScrollLink> */}
+                    <ScrollLink to="skills" smooth={true} duration={500} offset={-headerHeight} className="block px-4 py-2" title='Skills'>
+                        <FaList className=' text-verde text-xl'/>
+                    </ScrollLink>
 
                     <ScrollLink to="contact" smooth={true} duration={500} offset={-headerHeight} className="cursor-pointer block px-4 py-2" title='Contact'>
-                        <FaPhone className='text-verde text-xl'/>
+                        <FaPhone className=' text-rosa text-xl'/>
                     </ScrollLink>
                     </div>
                 )}
