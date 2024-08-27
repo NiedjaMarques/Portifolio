@@ -12,7 +12,7 @@ import { FaGithub, FaCloudArrowUp } from "react-icons/fa6";
 
 const Projetos = () => {
 
-    const [selectedProject, setSelectedProject] = useState('Sistema de Login');
+    const [selectedProject, setSelectedProject] = useState('Web Site');
 
     const projects = {
         'Web Site': {
