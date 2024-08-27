@@ -3,11 +3,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';  // Importação do Pagination
 import 'swiper/css';
 import 'swiper/css/pagination';
-import img1 from '../../../app/view/imagens/ProjetoWebSite.png';
-import img2 from '../../../app/view/imagens/ProjetoSistemadeLogin.png'
-import img3 from '../../../app/view/imagens/ProjetoLoginFront.png'
+import img1 from '../../../app/view/imagens/ProjetoWebSite.png'; 
+import img2 from '../../../app/view/imagens/portifolioimg.jpg'
+import img3 from '../../../app/view/imagens/ProjetoSistemadeLogin.png';
 import img4 from '../../../app/view/imagens/ProjetoHamburgueria.png'
-import img5 from '../../../app/view/imagens/portifolioimg.jpg'
+import img5 from '../../../app/view/imagens/ProjetoLoginFront.png'
 import { FaGithub, FaCloudArrowUp } from "react-icons/fa6";
 
 const Projetos = () => {
