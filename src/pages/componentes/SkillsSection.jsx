@@ -2,7 +2,6 @@ import { FaHtml5, FaCss3Alt, FaReact, FaPhp, FaGithub, FaNodeJs } from "react-ic
 import { SiMysql, SiTailwindcss, SiVitess } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 
-
 const Skills = () => {
     return(
         <>
@@ -12,9 +11,9 @@ const Skills = () => {
                     <span className='text-verde'>04.</span>Skills
                 </h1>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
 
-                    <div className="flex flex-col items-center text-center text-cinza-claro p-6 bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="flex flex-col items-center text-center text-cinza-claro p-6 bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border">
 
                         <SiMysql className="text-[100px] transform hover:scale-110 transition-transform duration-300 text-verde"/>
 
@@ -28,7 +27,7 @@ const Skills = () => {
 
                     </div>
                     
-                    <div className="flex flex-col items-center justify-center text-center text-cinza-claro p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ">
+                    <div className="flex flex-col items-center justify-center text-center text-cinza-claro p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border">
 
                         <div className="flex pb-5 items-center justify-center space-x-4 transform hover:scale-110 transition-transform duration-300 text-verde text-[50px]">
                             <FaHtml5 className=""/>
@@ -46,7 +45,7 @@ const Skills = () => {
 
                     </div>
 
-                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border">
 
                         <FaReact className="text-[100px] transform hover:scale-110 transition-transform duration-300 text-verde"/>
 
@@ -60,7 +59,7 @@ const Skills = () => {
 
                     </div>
 
-                    <div className="flex flex-col items-center text-center text-cinza-claro p-6 bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="flex flex-col items-center text-center text-cinza-claro p-6 bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border">
 
                         <SiTailwindcss className="text-[100px] transform hover:scale-110 transition-transform duration-300 text-verde"/>
 
@@ -74,7 +73,7 @@ const Skills = () => {
 
                     </div>
 
-                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border">
 
                         <FaPhp className="text-[100px] transform hover:scale-110 transition-transform duration-300 text-verde"/>
 
@@ -88,7 +87,7 @@ const Skills = () => {
 
                     </div>
 
-                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border">
 
                         <FaGithub className="text-[100px] transform hover:scale-110 transition-transform duration-300 text-verde"/>
 
@@ -102,7 +101,7 @@ const Skills = () => {
 
                     </div>
 
-                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border">
 
                         <FaNodeJs className="text-[100px] transform hover:scale-110 transition-transform duration-300 text-verde"/>
 
@@ -116,7 +115,7 @@ const Skills = () => {
 
                     </div>
 
-                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div className="flex flex-col items-center text-center p-6 text-cinza-claro bg-azul-escuro rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 border">
 
                         <SiVitess className="text-[100px] transform hover:scale-110 transition-transform duration-300 text-verde"/>
 

@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';  // Importação do Pagination
+import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import img1 from '../../../app/view/imagens/ProjetoWebSite.png'; 
+import img1 from '../../../app/view/imagens/ProjetoWebSite.png';
 import img2 from '../../../app/view/imagens/portifolioimg.jpg'
 import img3 from '../../../app/view/imagens/ProjetoSistemadeLogin.png';
 import img4 from '../../../app/view/imagens/ProjetoHamburgueria.png'
@@ -23,10 +23,10 @@ const Projetos = () => {
                         Desenvolvi uma réplica de um site existente utilizando <span className='text-azul-claro font-bold'>HTML5</span>, <span className='text-azul-claro font-bold'>Tailwind CSS</span>, <span className='text-azul-claro font-bold'>JavaScript</span> e <span className='text-azul-claro font-bold'>React JS</span>. Este projeto foca na recriação detalhada do design e das funcionalidades do site original, permitindo uma experiência de usuário consistente e interativa. A implementação inclui práticas avançadas de design responsivo e componentização com React, além de melhorias de performance para garantir uma navegação fluida e eficiente.
                     </p>
                     <p className='flex space-x-5 my-3'>
-                        <a href="https://github.com/NiedjaMarques/web-site">
+                        <a href="https://github.com/NiedjaMarques/web-site" target="_blank">
                             <FaGithub className='text-2xl text-azul-claro transition-all duration-500 ease hover:text-white cursor-pointer'/>
                         </a>
-                        <a href="https://web-site-gfta.vercel.app/">
+                        <a href="https://web-site-gfta.vercel.app/" target="_blank">
                             <FaCloudArrowUp className='text-2xl text-azul-claro transition-all duration-500 ease hover:text-white cursor-pointer'/>
                         </a>                    
                     </p>
@@ -42,10 +42,10 @@ const Projetos = () => {
                         Desenvolvi um portfólio com o objetivo de apresentar meus trabalhos e habilidades para visitantes interessados em conhecer mais sobre mim como desenvolvedora. Utilizei <span className='text-verde font-bold'>Tailwind CSS</span>, <span className='text-verde font-bold'>React JS</span> e <span className='text-verde font-bold'>HTML</span>, aplicando métodos de <span className='text-verde font-bold'>POO</span> e o padrão <span className='text-verde font-bold'>MVC</span>. Além disso, integrei o <span className='text-verde font-bold'>Email.js</span> para permitir o envio de emails diretamente para minha conta do Google. Este projeto serve como um currículo digital, destacando minha experiência e competências técnicas de forma clara e organizada.
                     </p>
                     <p className='flex space-x-5 my-3'>
-                        <a href="https://github.com/NiedjaMarques/Portifolio">
-                            <FaGithub className='text-2xl text-verde transition-all duration-500 ease hover:text-white cursor-pointer'/>
+                        <a href="https://github.com/NiedjaMarques/Portifolio" target="_blank">
+                            <FaGithub className='text-2xl text-verde transition-all duration-500 ease hover:text-white cursor-pointer' />
                         </a>
-                        <a href="https://portifolio-tau-orpin.vercel.app/">
+                        <a href="https://portifolio-tau-orpin.vercel.app/" target="_blank">
                             <FaCloudArrowUp className='text-2xl text-verde transition-all duration-500 ease hover:text-white cursor-pointer'/>
                         </a>                    
                     </p>
@@ -61,7 +61,7 @@ const Projetos = () => {
                         Desenvolvi um Sistema de Login utilizando <span className='text-rosa font-bold'>PHP</span>, <span className='text-rosa font-bold'>HTML</span>, <span className='text-rosa font-bold'>Tailwind CSS</span> e <span className='text-rosa font-bold'>MySQL</span>. Implementei funcionalidades de autenticação com gestão de sessões, criptografia de senhas no banco de dados e páginas de erro personalizadas para segurança adicional, garantindo uma experiência de usuário segura e eficiente. Também utilizei minhas habilidades em <span className='text-rosa font-bold'>MVC</span> e <span className='text-rosa font-bold'>POO</span>.  
                     </p>
                     <p className='flex space-x-5 my-3'>
-                        <a href="https://github.com/NiedjaMarques/Sistema-de-Autentica--o">
+                        <a href="https://github.com/NiedjaMarques/Sistema-de-Autentica--o" target="_blank">
                             <FaGithub className='text-2xl text-rosa transition-all duration-500 ease hover:text-white cursor-pointer'/>
                         </a>                  
                     </p>               
@@ -77,10 +77,10 @@ const Projetos = () => {
                         Desenvolvi um cardápio interativo utilizando <span className='text-amarelo font-bold'>Tailwind CSS</span>, <span className='text-amarelo font-bold'>HTML</span>, <span className='text-amarelo font-bold'>JavaScript</span> e <span className='text-amarelo font-bold'>Node.js</span>. Este projeto permite aos clientes visualizar os itens disponíveis, preços e descrições. Além disso, implementei funcionalidades que direcionam os clientes ao WhatsApp para finalizar seus pedidos, proporcionando uma experiência de compra simplificada e direta.
                     </p>
                     <p className='flex space-x-5 my-3'>
-                        <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria">
-                            <FaGithub className='text-2xl text-amarelo transition-all duration-500 ease hover:text-white cursor-pointer'/>
+                        <a href="https://github.com/NiedjaMarques/Projeto_Hamburgueria" target="_blank">
+                            <FaGithub className='text-2xl text-amarelo transition-all duration-500 ease hover:text-white cursor-pointer' />
                         </a>
-                        <a href="https://projeto-hamburgueria-alpha.vercel.app/">
+                        <a href="https://projeto-hamburgueria-alpha.vercel.app/" target="_blank">
                             <FaCloudArrowUp className='text-2xl text-amarelo transition-all duration-500 ease hover:text-white cursor-pointer'/>
                         </a>                    
                     </p>  
@@ -96,10 +96,10 @@ const Projetos = () => {
                         Um dos meus primeiros projetos foi a criação de uma página de login utilizando apenas <span className='text-azul-claro font-bold'>HTML</span> e <span className='text-azul-claro font-bold'>CSS</span>, com foco em design responsivo. Esse projeto me ajudou a aprender os fundamentos do desenvolvimento web e a criar interfaces acessíveis, garantindo uma experiência consistente em desktops, tablets e smartphones.
                     </p>
                     <p className='flex space-x-5 my-3'>
-                        <a href="https://github.com/NiedjaMarques/projeto-login">
+                        <a href="https://github.com/NiedjaMarques/projeto-login" target="_blank">
                             <FaGithub className='text-2xl text-azul-claro transition-all duration-500 ease hover:text-white cursor-pointer'/>
                         </a>
-                        <a href="https://projeto-login-pearl.vercel.app/">
+                        <a href="https://projeto-login-pearl.vercel.app/" target="_blank">
                             <FaCloudArrowUp className='text-2xl text-azul-claro transition-all duration-500 ease hover:text-white cursor-pointer'/>
                         </a>                    
                     </p>
