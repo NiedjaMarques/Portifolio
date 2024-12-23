@@ -1,4 +1,5 @@
 import React from 'react';
+import Typewriter from "typewriter-effect/dist/core";
 // import iconLinkedin from '../../../app/view/icons/icons8-linkedin.svg'
 // import iconGithub from '../../../app/view/icons/icons8-github.svg'
 
@@ -11,8 +12,21 @@ Home = () => {
             <div className='pb-4 sm:pb-0 transition-all duration-500 ease'>
 
                 <h1 className="font-bold text-3xl sm:text-5xl mb-10 transition-all duration-500 ease">
-                    Niedja Marques<span className='text-rosa'>.</span>
+                    Niedjax Marques<span className='text-rosa'>.</span>
                 </h1>
+
+                <Typewriter
+                    options={{
+                    strings: [
+                        "Olá, sou desenvolvedora web.",
+                        "Bem-vindo ao meu portfólio.",
+                        "Cada linha de código representa um novo passo.",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    delay: 75,
+                    }}
+                />
 
                 <p className='transition-all duration-500 ease'>
                     Olá, sou <span className='animate-color-transition font-bold'>desenvolvedora web</span>. Bem-vindos ao meu portfólio, onde cada linha de código representa um passo na construção de algo novo.
