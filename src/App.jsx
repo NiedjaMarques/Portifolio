@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom'
 import Header from './pages/componentes/Header'
 import Home from './pages/componentes/Home.jsx'
 import About from './pages/componentes/AboutSection.jsx'
@@ -8,16 +9,17 @@ import MainLayout from './pages/componentes/MainLayout.jsx'
 
 const App = () => {
   return (
-    <>
-      <MainLayout>
-        <Header/>
-        <Home/>
-        <About/>
-        <Projects/>
-        <Skills/>
-        <Contact />
-      </MainLayout>
-    </>
+    <MainLayout>
+      <Header/>
+      <Home/>
+      {/* <Routes>
+        <Route path="/projects" element={<Projects/>} />
+        <Route path="/contact" element={<Contact/>} />
+      </Routes>      */}
+      <About/>
+      <Skills/>
+      {/* <Contact/>  */}
+    </MainLayout>
   )
 }
 export default App

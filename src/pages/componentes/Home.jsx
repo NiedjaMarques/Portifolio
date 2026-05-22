@@ -1,81 +1,83 @@
 import React from 'react';
-import Typewriter from "typewriter-effect/dist/core";
-// import iconLinkedin from '../../../app/view/icons/icons8-linkedin.svg'
-// import iconGithub from '../../../app/view/icons/icons8-github.svg'
+import euMesma from '../../../app/view/imagens/eumesma.png'
+import { Link } from 'react-router-dom';
+import { FaHtml5, FaCss3Alt, FaReact, FaPhp, FaGithub, FaNodeJs, FaCode } from "react-icons/fa";
+import { SiMysql, SiTailwindcss, SiVitess, SiSupabase, SiMake, SiPostgresql, SiN8N } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
 
-const 
-Home = () => {
+const Home = () => {
     return (
-      <>
-        <section id='home' className="grid sm:grid-cols-2 gap-4 items-center py-28 transition-all duration-500 ease">
+        <section id='home' className="pt-20 min-h-screen grid sm:grid-cols-2 gap-6 items-center max-w-6xl mx-auto px-4 transition-all duration-500 ease place-items-center">
 
-            <div className='pb-4 sm:pb-0 transition-all duration-500 ease'>
-
-                <h1 className="font-bold text-3xl sm:text-5xl mb-10 transition-all duration-500 ease">
-                    Niedjax Marques<span className='text-rosa'>.</span>
-                </h1>
-
-                <Typewriter
-                    options={{
-                    strings: [
-                        "Olá, sou desenvolvedora web.",
-                        "Bem-vindo ao meu portfólio.",
-                        "Cada linha de código representa um novo passo.",
-                    ],
-                    autoStart: true,
-                    loop: true,
-                    delay: 75,
-                    }}
-                />
+            <div className='grid gap-6 transition-all duration-500 ease'>
 
                 <p className='transition-all duration-500 ease'>
-                    Olá, sou <span className='animate-color-transition font-bold'>desenvolvedora web</span>. Bem-vindos ao meu portfólio, onde cada linha de código representa um passo na construção de algo novo.
-                </p> {/**/}
-        
-                {/* <h2 className="text-2xl sm:text-3xl pb-2 font-semibold">
-                    Desenvolvedora Web
-                </h2> */}
-        
-                {/* <div className="flex items-start justify-start py-4 ">
+                    Olá👋 , eu sou  
+                </p>
 
-                    <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank">
-                        <img className=' transform duration-500 rounded-full shadow-md shadow-azul-escuro h-10' src={iconLinkedin} alt="logo linkedin" />
+                <div>
+                    <h1 className="font-bold text-3xl sm:text-5xl transition-all duration-500 ease">
+                        Niedja <span className='text-verde'>Marques</span>
+                    </h1>
+
+                    <p className='transition-all duration-500 ease'>
+                        Desenvolvedora Full Stack 
+                    </p>
+                </div>
+
+                <p className='transition-all duration-500 ease'>
+                    Sou programadora fullstack e supervisora de automação de processos, ajudando empresas a escalar operações com eficiência.
+                </p>
+
+                <div className='flex flex-wrap gap-4 transition-all duration-500 ease'>
+                    <a href="#projects" className='bg-verde text-preto px-6 py-3 rounded-lg font-medium hover:opacity-90 transition'>
+                    Veja meus projetos →
                     </a>
 
-                    <a href="https://github.com/NiedjaMarques" target="_blank">
-                        <img className=' transform duration-500 ml-2 rounded-full shadow-md shadow-azul-escuro h-10' src={iconGithub} alt="logo Github" />
+                    <a href="#contact" className='border border-cinza-medio px-6 py-3 rounded-lg hover:border-verde transition'>
+                    Entre em contato ✉︎
                     </a>
-                    
-                </div> */}
+                </div>
+
+                <div className="flex flex-wrap gap-3 mt-4 text-2xl text-branco justify-center sm:justify-start items-center">
+
+                    {/* Frontend */}
+                    <i className="devicon-html5-plain"><FaHtml5/></i>
+                    <i className="devicon-css3-plain"><FaCss3Alt/></i>
+                    <i className="devicon-javascript-plain"><IoLogoJavascript/></i>
+                    <i className="devicon-react-original"><FaReact/></i>
+                    <i className="devicon-tailwindcss-plain"><SiTailwindcss/></i>
+
+                    {/* Backend */}
+                    <i className="devicon-nodejs-plain"><FaNodeJs/></i>
+                    <i className="devicon-php-plain"><FaPhp/></i>
+
+                    {/* Banco de dados */}
+                    <i className="devicon-mysql-plain"><SiMysql/></i>
+                    <i className="devicon-postgresql-plain"><SiPostgresql/></i>
+                    <i className="devicon-supabase-plain"><SiSupabase/></i>
+
+                    {/* Ferramentas / DevOps / Automação */}
+                    <i className="devicon-github-original"><FaGithub/></i>
+                    <i className="devicon-git-plain"><SiMake/></i>
+                    <i className="devicon-git-plain"><SiN8N/></i>
+                    <i className="devicon-git-plain"><SiVitess/></i>
+
+                </div>
 
             </div>
 
-            <div className='p-5 text-sm rounded-xl border relative transition-all duration-500 ease'>
-
-                <div className='border-b w-full space-x-2 absolute top-2 left-0 px-4 py-2 flex'>
-                    <span className='bg-verde w-4 h-4 rounded-full'></span>
-                    <span className='bg-amarelo w-4 h-4 rounded-full'></span>
-                    <span className='bg-rosa w-4 h-4 rounded-full'></span>
-                </div>
-
-                <div className='flex flex-col pt-6 mt-4 flex-nowrap transition-all duration-500 ease'>
-                    <span>01.<span className='ml-6'>&lt;ul&gt;</span></span>
-                    <span>02.<span className='ml-10'>&lt;li&gt;<span className='text-rosa'>Javascript</span>&lt;/li&gt;</span></span>
-                    <span>03.<span className='ml-10'>&lt;li&gt;<span className='text-amarelo'>React JS</span>&lt;/li&gt;</span></span>
-                    <span>04.<span className='ml-10'>&lt;li&gt;<span className='text-azul-claro'>Node.js</span>&lt;/li&gt;</span></span>
-                    <span>05.<span className='ml-10'>&lt;li&gt;<span className='text-verde'>PHP</span>&lt;/li&gt;</span></span>
-                    <span>06.<span className='ml-10'>&lt;li&gt;<span className='text-rosa'>MySQL</span>&lt;/li&gt;</span></span>
-                    <span>07.<span className='ml-10'>&lt;li&gt;<span className='text-amarelo'>Tailwind CSS</span>&lt;/li&gt;</span></span>
-                    <span>08.<span className='ml-10'>&lt;li&gt;<span className='text-azul-claro'>HTML</span>&lt;/li&gt;</span></span>
-                    <span>09.<span className='ml-10'>&lt;li&gt;<span className='text-verde'>CSS</span>&lt;/li&gt;</span></span>
-                    <span>10.<span className='ml-10'>&lt;li&gt;<span className='text-rosa'>e mais...</span>&lt;/li&gt;</span></span>
-                    <span>11.<span className='ml-6'>&lt;/ul&gt;</span></span>
-                </div>
-
-            </div>         
-
+            <div className='transition-all duration-500 ease'> 
+                <img
+                src={euMesma}
+                alt="Niedja Marques"
+                className='max-h-[80vh] rounded-2xl'
+                />
+            </div>
+            
         </section>
-      </>
     );
 }
-  export default Home;
+export default Home;
+
+// NÃO PRECISA DE MAIS AJUSTES 05/05/2026

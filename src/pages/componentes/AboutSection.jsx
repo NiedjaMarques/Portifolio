@@ -1,45 +1,64 @@
 import React from 'react';
-import imgEu from '../../../app/view/imagens/cabelolongoproxxima.jpg'
+import euMesma from '../../../app/view/imagens/notebook2.png'
+import { FaCode } from "react-icons/fa";
 
 function About(){
     return(
-        <>
-            <section className="py-4 grid sm:grid-cols-2 gap-4 items-center transition-all duration-500 ease " id='about'>
 
-                <div className="pb-4 sm:pb-0 transition-all duration-500 ease">
+        <section  id='about' className="py-6 min-h-screen grid sm:grid-cols-2 gap-6 items-center max-w-6xl mx-auto px-4 transition-all duration-500 ease place-items-center"> 
+            
+            <div className="pb-4 sm:pb-0 transition-all duration-500 ease">
 
-                    <h1 className="font-bold text-3xl sm:text-4xl mb-5 transition-all duration-500 ease">
-                        <span className='text-amarelo'>02.</span>Sobre mim
-                    </h1>
+                <h2 className="flex items-center gap-2 text-xl text-verde font-bold mb-4">
+                <span className="w-7 h-[1px] bg-verde"></span>
+                    Sobre mim
+                </h2>
+
+                <div className="space-y-4 leading-6">
 
                     <p>
-                        Meu nome é Niedja Marques, e minha jornada na programação começou pelo desejo de compreender como as coisas funcionam. Dediquei-me à criação de projetos variados, enriquecendo minhas habilidades em desenvolvimento web.
+                        Me chamo Niedja Marques, estudante de Análise e Desenvolvimento de Sistemas pela Estácio e profissional com mais de 2 anos de experiência liderando operações de automação e atuando como programadora há 3 anos.
                     </p>
 
-                    <p className='my-4'>
-                        Busco constantemente me aprimorar tanto em <span className='text-amarelo font-bold'>front-end</span>, com experiência em <span className='text-amarelo font-bold'>HTML</span>, <span className='text-amarelo font-bold'>CSS</span>, <span className='text-amarelo font-bold'>JavaScript</span>, <span className='text-amarelo font-bold'>React JS</span> e <span className='text-amarelo font-bold'>Tailwind CSS</span>, quanto em <span className='text-amarelo font-bold'>back-end</span>, com conhecimentos em <span className='text-amarelo font-bold'>Node.js</span>, <span className='text-amarelo font-bold'>PHP</span> e gestão de bancos de dados <span className='text-amarelo font-bold'>MySQL</span>. Além disso, estou familiarizada com os princípios de <span className='text-amarelo font-bold'>POO (Programação Orientada a Objetos)</span> e <span className='text-amarelo font-bold'>MVC (Model-View-Controller)</span>.
+                    <p>
+                        Atualmente atuo como supervisora, conduzindo processos que otimizam atendimentos e organizam fluxos, principalmente em clínicas e áreas comerciais.                    
                     </p>
-                                            
-                </div>                    
 
-                <div className='p-5 rounded-xl border relative transition-all duration-500 ease '>
+                    <p>
+                        Estudo programação desde 2022 e venho construindo minha base técnica enquanto aplico, na prática, soluções para problemas reais de negócio.                    
+                    </p>
 
-                    <div className='border-b w-full space-x-2 absolute top-2 left-0 px-4 py-2 flex'>
-                        <span className='bg-verde w-4 h-4 rounded-full'></span>
-                        <span className='bg-amarelo w-4 h-4 rounded-full'></span>
-                        <span className='bg-rosa w-4 h-4 rounded-full'></span>
-                    </div>
+                    <p>
+                        Gosto de transformar cenários desorganizados em processos claros, funcionais e orientados a resultado.
+                    </p>
 
-                    <div className='flex justify-center items-center pt-10 '>
-                        <div className='max-w-[290px]  sm:max-w-[290px] md:max-w-[290px] lg:max-w-[290px] xl:max-w-[290px] transition-all duration-500 ease'>
-                            <img className='rounded-3xl w-full max-h-[320px] ' src={imgEu} alt="Niedja Marques" />
-                        </div>
-                    </div>
+                </div>
 
-                </div>  
+                <div className='mt-6 inline-block border p-2 rounded-2xl border-cinza-medio'>
+                    <a href="https://wa.me/5583993449215" target="_blank" className="flex items-center gap-2">
+                        <span className='text-verde bg-verde/25 p-2 rounded-full'>
+                        <FaCode/>
+                        </span>
+                        Vamos conversar? →
+                    </a>
+                </div>
 
-            </section>
-        </>       
+                <p className="flex items-center gap-2 mt-4">
+                    <span className="relative flex w-3 h-3">
+                        <span className="absolute inline-flex w-full h-full rounded-full bg-verde opacity-75 animate-ping"></span>
+                        <span className="relative inline-flex w-3 h-3 rounded-full bg-verde"></span>
+                    </span>
+                    Disponível para novos projetos
+                </p>
+
+            </div>
+                                        
+            <div className='flex justify-center items-center '>
+                <img className='max-h-[80vh] rounded-2xl' src={euMesma} alt="Niedja Marques" />
+            </div>
+
+        </section>
+              
     )
 }
 export default About
