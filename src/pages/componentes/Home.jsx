@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< Updated upstream
 import euMesma from '../../../app/view/imagens/eumesma.png'
 import { Link } from 'react-router-dom';
 import { FaHtml5, FaCss3Alt, FaReact, FaPhp, FaGithub, FaNodeJs, FaCode } from "react-icons/fa";
@@ -10,6 +11,21 @@ const Home = () => {
         <section id='home' className="pt-20 min-h-screen grid sm:grid-cols-2 gap-6 items-center max-w-6xl mx-auto px-4 transition-all duration-500 ease place-items-center">
 
             <div className='grid gap-6 transition-all duration-500 ease'>
+=======
+// import iconLinkedin from '../../../app/view/icons/icons8-linkedin.svg'
+// import iconGithub from '../../../app/view/icons/icons8-github.svg'
+
+const Home = () => {
+    return(
+      <>
+        <section id='home' className="grid sm:grid-cols-2 gap-4 items-center py-28 transition-all duration-500 ease">
+
+            <div className='pb-4 sm:pb-0 transition-all duration-500 ease'>
+
+                <h1 className="font-bold text-3xl sm:text-5xl mb-10 transition-all duration-500 ease">
+                    Niedjax Marques<span className='text-rosa'>.</span>
+                </h1>
+>>>>>>> Stashed changes
 
                 <p className='transition-all duration-500 ease'>
                     Olá👋 , eu sou  
@@ -78,6 +94,11 @@ const Home = () => {
         </section>
     );
 }
+<<<<<<< Updated upstream
 export default Home;
 
 // NÃO PRECISA DE MAIS AJUSTES 05/05/2026
+=======
+
+export default Home
+>>>>>>> Stashed changes
