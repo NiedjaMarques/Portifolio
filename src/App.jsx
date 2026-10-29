@@ -11,14 +11,14 @@ const App = () => {
   return (
     <MainLayout>
       <Header/>
-      <Home/>
+      <Home/> 
       {/* <Routes>
         <Route path="/projects" element={<Projects/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>      */}
       <About/>
       <Skills/>
-      {/* <Contact/>  */}
+      <Contact/>
     </MainLayout>
   )
 }

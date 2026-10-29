@@ -8,14 +8,14 @@ import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa6";
 //porque esse id do contact
 
 const Contact = () => {
-    return (
+    return ( 
         <>
             <footer className="grid sm:grid-cols-2 gap-4 items-center pb-10 pt-4 transition-all duration-500 ease" id='contact'>               
 
                 <div>
 
                     <h1 className="font-bold text-3xl sm:text-4xl mb-5 transition-all duration-500 ease">
-                        <span className='text-rosa'>05.</span>Contato
+                        <span className='text-verde'>05.</span>Contato
                     </h1>
                     
                     <ContactForm />
@@ -24,18 +24,18 @@ const Contact = () => {
                 <div className='py-4'>
 
                     <div className="flex items-center mb-2">
-                        <FaLinkedin className='text-rosa text-3xl mr-2'/>
-                        <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className='font-medium hover:underline hover:text-rosa duration-300 transition-all ease'>/niedja-marques</a>
+                        <FaLinkedin className='text-verde text-3xl mr-2'/>
+                        <a href="https://www.linkedin.com/in/niedja-marques-460823274/" target="_blank" className='font-medium hover:underline '>/niedja-marques</a>
                     </div>
 
                     <div className="flex items-center mb-2">
-                        <FaGithub className='text-rosa text-3xl mr-2'/>
-                        <a href="https://github.com/NiedjaMarques" target="_blank" className='font-medium hover:underline hover:text-rosa duration-300 transition-all ease'>/NiedjaMarques</a>
+                        <FaGithub className='text-verde text-3xl mr-2'/>
+                        <a href="https://github.com/NiedjaMarques" target="_blank" className='font-medium hover:underline'>/NiedjaMarques</a>
                     </div>
 
                     <div className="flex items-center">
-                        <FaEnvelope className='text-rosa text-3xl mr-2'/>
-                        <a href="mailto:niedja.marquees@gmail.com" target="_blank" className='font-medium hover:underline hover:text-rosa duration-300 transition-all ease'>niedja.marquees@gmail.com</a>
+                        <FaEnvelope className='text-verde text-3xl mr-2'/>
+                        <a href="mailto:niedjamarquesarruda@gmail.com" target="_blank" className='font-medium hover:underline'>niedjamarquesarruda@gmail.com</a>
                     </div>
 
                     <p className='pt-5 max-w-sm text-sm'>
@@ -47,7 +47,7 @@ const Contact = () => {
             </footer>
 
             <p className='p-5 text-center text-xs'>
-                © 2024 / Niedja Marques / Todos os direitos reservados
+                © 2024 | Niedja Marques / Todos os direitos reservados
             </p>
         </>
     )
@@ -131,7 +131,7 @@ const ContactForm = () => {
                     
                     <button
                     type="submit"
-                    className="w-full p-2 bg-rosa font-bold rounded-lg hover:bg-azul-claro transition-all duration-500 ease focus:outline-none focus:ring-2">
+                    className="w-full p-2 bg-verde font-bold rounded-lg hover:bg-branco transition-all duration-500 ease focus:outline-none focus:ring-2">
                     Enviar
                     </button>
 
