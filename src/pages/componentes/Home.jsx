@@ -1,9 +1,10 @@
 import React from 'react';
 import euMesma from '../../../app/view/imagens/eumesma.png';
 import { Link } from 'react-router-dom';
-import { FaHtml5, FaCss3Alt, FaReact, FaPhp, FaGithub, FaNodeJs, FaCode } from "react-icons/fa";
-import { SiMysql, SiTailwindcss, SiVitess, SiSupabase, SiMake, SiPostgresql, SiN8N } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io";
+import { Link as ScrollLink } from 'react-scroll';
+// import { FaHtml5, FaCss3Alt, FaReact, FaPhp, FaGithub, FaNodeJs, FaCode } from "react-icons/fa";
+// import { SiMysql, SiTailwindcss, SiVitess, SiSupabase, SiMake, SiPostgresql, SiN8N } from "react-icons/si";
+// import { IoLogoJavascript } from "react-icons/io";
 
 const Home = () => {
     return (
@@ -30,13 +31,13 @@ const Home = () => {
                 </p>
 
                 <div className='flex flex-wrap gap-4 transition-all duration-500 ease'>
-                    <a href="#projects" className='bg-verde text-preto px-6 py-3 rounded-lg font-medium hover:opacity-90 transition'>
+                    <ScrollLink to="projects" smooth={true} duration={500} offset={-72} className='cursor-pointer bg-verde text-preto px-6 py-3 rounded-lg font-medium hover:opacity-90 transition'>
                         Veja meus projetos →
-                    </a>
+                    </ScrollLink>
 
-                    <a href="#contact" className='border border-cinza-medio px-6 py-3 rounded-lg hover:border-verde transition'>
+                    <ScrollLink to="projects" smooth={true} duration={500} offset={-72} className='cursor-pointer border border-cinza-medio px-6 py-3 rounded-lg hover:border-verde transition'>
                         Entre em contato ✉︎
-                    </a>
+                    </ScrollLink>
                 </div>
 
                 {/* <div className="flex flex-wrap gap-3 mt-4 text-2xl text-branco justify-center sm:justify-start items-center">
@@ -81,4 +82,4 @@ const Home = () => {
 
 export default Home;
 
-// NÃO PRECISA DE MAIS AJUSTES 05/05/2026
+// NÃO PRECISA DE MAIS AJUSTES 11/11/2026
