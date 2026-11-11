@@ -10,18 +10,19 @@ import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa6";
 const Contact = () => {
     return ( 
         <>
-            <footer className="grid sm:grid-cols-2 gap-4 items-center pb-10 pt-4 transition-all duration-500 ease" id='contact'>               
+            <footer className="py-8 grid sm:grid-cols-2 gap-6 max-w-6xl mx-auto px-4 transition-all duration-500 ease" id='contact'>               
 
-                <div>
+                <div className="pb-4 sm:pb-0 transition-all duration-500 ease">
 
-                    <h1 className="font-bold text-3xl sm:text-4xl mb-5 transition-all duration-500 ease">
-                        <span className='text-verde'>05.</span>Contato
-                    </h1>
+                    <h2 className="flex items-center gap-2 text-xl text-verde font-bold mb-4">
+                    <span className="w-7 h-[1px] bg-verde"></span>
+                        Contato
+                    </h2>
                     
                     <ContactForm />
                 </div>
 
-                <div className='py-4'>
+                <div className='flex flex-col justify-center py-4'>
 
                     <div className="flex items-center mb-2">
                         <FaLinkedin className='text-verde text-3xl mr-2'/>
@@ -39,7 +40,7 @@ const Contact = () => {
                     </div>
 
                     <p className='pt-5 max-w-sm text-sm'>
-                        Gostaria de saber mais sobre meus projetos ou tem alguma oportunidade para mim? <br /><br />Sinta-se à vontade para entrar em contato através do formulário ou pelo meu e-mail. Responderei o mais breve possível!
+                        Está buscando uma profissional para sua equipe ou deseja conhecer melhor meus projetos? <br /><br />Estou aberta a oportunidades nas áreas de Desenvolvimento, Suporte Técnico e Automação. Entre em contato pelo formulário ou pelos canais abaixo. Será um prazer conversar!
                     </p>
 
                 </div>  
