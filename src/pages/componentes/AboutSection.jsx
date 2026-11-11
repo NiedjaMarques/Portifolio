@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa";
 function About(){
     return(
 
-        <section  id='about' className="py-6 min-h-screen grid sm:grid-cols-2 gap-6 items-center max-w-6xl mx-auto px-4 transition-all duration-500 ease place-items-center"> 
+        <section id='about' className="py-8 grid sm:grid-cols-2 gap-6 max-w-6xl mx-auto px-4 transition-all duration-500 ease place-items-center"> 
             
             <div className="pb-4 sm:pb-0 transition-all duration-500 ease">
 
@@ -17,19 +17,15 @@ function About(){
                 <div className="space-y-4 leading-6">
 
                     <p>
-                        Me chamo Niedja Marques, estudante de Análise e Desenvolvimento de Sistemas pela Estácio e profissional com mais de 2 anos de experiência liderando operações de automação e atuando como programadora há 3 anos.
+                        Me chamo Niedja Marques, estudante de Análise e Desenvolvimento de Sistemas pela Estácio e profissional de tecnologia com experiência em suporte técnico, automação de processos e desenvolvimento de soluções.
                     </p>
 
                     <p>
-                        Atualmente atuo como supervisora, conduzindo processos que otimizam atendimentos e organizam fluxos, principalmente em clínicas e áreas comerciais.                    
+                        Minha trajetória na tecnologia começou em 2022, com estudos em programação e experiências práticas na resolução de problemas, integração de sistemas e otimização de processos.
                     </p>
 
                     <p>
-                        Estudo programação desde 2022 e venho construindo minha base técnica enquanto aplico, na prática, soluções para problemas reais de negócio.                    
-                    </p>
-
-                    <p>
-                        Gosto de transformar cenários desorganizados em processos claros, funcionais e orientados a resultado.
+                        Ao longo dessa jornada, desenvolvi soluções utilizando APIs, bancos de dados, ferramentas de automação e tecnologias web.
                     </p>
 
                 </div>
