@@ -21,12 +21,12 @@ const Home = () => {
                     </h1>
 
                     <p className='transition-all duration-500 ease'>
-                        Desenvolvedora Full Stack
+                        Desenvolvedora de Software | Suporte Técnico e Automações
                     </p>
                 </div>
 
                 <p className='transition-all duration-500 ease'>
-                    Sou programadora fullstack e supervisora de automação de processos, ajudando empresas a escalar operações com eficiência.
+                    Tenho experiência em suporte técnico, desenvolvimento de soluções e automação de processos, utilizando tecnologia para resolver problemas e otimizar operações.
                 </p>
 
                 <div className='flex flex-wrap gap-4 transition-all duration-500 ease'>
@@ -39,31 +39,31 @@ const Home = () => {
                     </a>
                 </div>
 
-                <div className="flex flex-wrap gap-3 mt-4 text-2xl text-branco justify-center sm:justify-start items-center">
+                {/* <div className="flex flex-wrap gap-3 mt-4 text-2xl text-branco justify-center sm:justify-start items-center">
 
-                    {/* Frontend */}
+                    {/* Frontend
                     <i className="devicon-html5-plain"><FaHtml5 /></i>
                     <i className="devicon-css3-plain"><FaCss3Alt /></i>
                     <i className="devicon-javascript-plain"><IoLogoJavascript /></i>
                     <i className="devicon-react-original"><FaReact /></i>
                     <i className="devicon-tailwindcss-plain"><SiTailwindcss /></i>
 
-                    {/* Backend */}
+                    {/* Backend 
                     <i className="devicon-nodejs-plain"><FaNodeJs /></i>
                     <i className="devicon-php-plain"><FaPhp /></i>
 
-                    {/* Banco de dados */}
+                    {/* Banco de dados 
                     <i className="devicon-mysql-plain"><SiMysql /></i>
                     <i className="devicon-postgresql-plain"><SiPostgresql /></i>
                     <i className="devicon-supabase-plain"><SiSupabase /></i>
 
-                    {/* Ferramentas / DevOps / Automação */}
+                    {/* Ferramentas / DevOps / Automação 
                     <i className="devicon-github-original"><FaGithub /></i>
                     <i className="devicon-git-plain"><SiMake /></i>
                     <i className="devicon-git-plain"><SiN8N /></i>
                     <i className="devicon-git-plain"><SiVitess /></i>
 
-                </div>
+                </div> */}
 
             </div>
 
