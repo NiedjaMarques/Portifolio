@@ -35,7 +35,7 @@ const Home = () => {
                         Veja meus projetos →
                     </ScrollLink>
 
-                    <ScrollLink to="projects" smooth={true} duration={500} offset={-72} className='cursor-pointer border border-cinza-medio px-6 py-3 rounded-lg hover:border-verde transition'>
+                    <ScrollLink to="contact" smooth={true} duration={500} offset={-72} className='cursor-pointer border border-cinza-medio px-6 py-3 rounded-lg hover:border-verde transition'>
                         Entre em contato ✉︎
                     </ScrollLink>
                 </div>
