@@ -51,11 +51,11 @@ const MobileMenu = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const icons = {
-        home: <FaHouse className='text-rosa text-xl' />,
-        about: <FaUser className='text-amarelo text-xl' />,
-        projects: <FaDiagramProject className='text-azul-claro text-xl' />,
+        home: <FaHouse className='text-verde text-xl' />,
+        about: <FaUser className='text-verde text-xl' />,
+        projects: <FaDiagramProject className='text-verde text-xl' />,
         skills: <FaList className='text-verde text-xl' />,
-        contact: <FaPhone className='text-rosa text-xl' />,
+        contact: <FaPhone className='text-verde text-xl' />,
     };
 
     return (
@@ -81,7 +81,7 @@ const MobileMenu = () => {
             {isOpen && (
                 <div
                     id="mobile-menu"
-                    className='absolute right-0 top-20 space-y-2 bg-azul-escuro border rounded-l-md'
+                    className='bg-preto absolute right-0 top-20 space-y-2 border rounded-l-md'
                 >
                     {nav_items.map((item) => (
                         <ScrollLink
